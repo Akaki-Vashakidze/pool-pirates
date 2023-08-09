@@ -1,0 +1,38 @@
+.card {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 250px;
+  width: 350px;
+  background-color: red;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 130px 200px;
+}
+
+.leftCard {
+  display: grid;
+  grid-template-columns: 130px 200px;
+}
+
+.left {
+  position: relative;
+  width: 150px;
+  height: 250px;
+  background-color: blue;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  transition: all linear 0.6s;
+  overflow: hidden;
+}
+
+.right {
+  position: relative;
+  left: 150px;
+}
+
+.hover {
+  width: 350px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
