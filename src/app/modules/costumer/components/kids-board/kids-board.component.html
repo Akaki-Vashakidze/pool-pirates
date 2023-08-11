@@ -1,6 +1,7 @@
 <div id="card" class="card" (mouseleave)="mouseLeave()" (click)="toggle()">
     <div class="leftCard">
-        <div [ngClass]="addHoverClassToLeft ? 'hover': ''" [ngStyle]="{'background-color':backgroundColor}" id="left" class="left">
+        <div [ngClass]="addHoverClassToLeft ? 'hover': ''" [ngStyle]="{'background-color':backgroundColor}" id="left"
+            class="left">
             <div class="leftleft">
                 <div>
                     <h2>{{KidName}}</h2>
@@ -8,17 +9,30 @@
                     <h3>{{HeaderBelow}}</h3>
                 </div>
             </div>
-            <div [ngStyle]="{'background-color':backgroundColor}"  class="right">
-                <h1>asfsa</h1>
+            <div [ngStyle]="{'background-color':backgroundColor}" class="right">
+                <div class="list">
+                    <div class="skill"><app-star size="8px"></app-star><p class="swimDesc">swims butterfly</p></div>
+                    <div class="skill"><app-star size="8px"></app-star><p class="swimDesc">swims butterfly</p></div>
+                    <div class="skill"><app-star size="8px"></app-star><p class="swimDesc">swims butterfly</p></div>
+                    <div class="skill"><app-star size="8px"></app-star><p class="swimDesc">swims butterfly</p></div>
+                    <div class="skill"><app-star size="8px"></app-star><p class="swimDesc">swims butterfly</p></div>
+                    <div class="skill"><app-star size="8px"></app-star><p class="swimDesc">swims butterfly</p></div>
+                    <div class="skill"><app-star size="8px"></app-star><p class="swimDesc">swims butterfly</p></div>
+                    <div class="skill"><app-star size="8px"></app-star><p class="swimDesc">swims butterfly</p></div>
+                    <div class="skill"><app-star size="8px"></app-star><p class="swimDesc">swims butterfly</p></div>
+                    <div class="skill"><app-star size="8px"></app-star><p class="swimDesc">swims butterfly</p></div>
+                </div>
             </div>
         </div>
     </div>
     <div class="rightCard">
         <div class="rightCardContent">
             <div class="rightContainer">
-                <div class="header1"><h3>{{'Stars ' + stars + '/10'}}</h3></div>
+                <div class="header1">
+                    <h3>{{'Stars ' + stars + '/10'}}</h3>
+                </div>
                 <div class="stars">
-                    <app-star *ngFor="let star of starsArray"></app-star>
+                    <app-star size="15px" *ngFor="let star of starsArray"></app-star>
                     <app-star-off *ngFor="let star of starsOffArray"></app-star-off>
                 </div>
                 <div class="kidInfo">{{kidInfo}}</div>

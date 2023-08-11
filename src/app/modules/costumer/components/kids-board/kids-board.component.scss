@@ -67,10 +67,25 @@
   top: -216px;
   width: 200px;
   height: 250px;
-  text-align: center;
   background-color: #8AAAE5;
   left: 150px;
   z-index: 2;
+}
+
+.list {
+  position: relative;
+  padding: 20px 10px;
+}
+
+.skill {
+  display: flex;
+  flex-direction: row;
+}
+
+.swimDesc {
+  position: relative;
+  top: 1px;
+  margin-left: 6px;
 }
 
 .rightCard {
