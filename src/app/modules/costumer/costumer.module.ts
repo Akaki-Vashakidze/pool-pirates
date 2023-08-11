@@ -1,16 +1,20 @@
 import { NgModule } from "@angular/core";
-import { KidsBoardComponent } from './kids-board/kids-board.component';
+import { KidsBoardComponent } from './components/kids-board/kids-board.component';
 import { CostumerComponent } from "./costumer.component";
 import { CostumerRoutinModule } from "./costumer-routing.module";
-import { BoardComponent } from './board/board.component';
+import { BoardComponent } from './components/board/board.component';
 import { CommonModule } from "@angular/common";
+import { StarComponent } from './components/star/star.component';
+import { StarOffComponent } from './star-off/star-off.component';
 
 
 @NgModule({
   declarations: [
     KidsBoardComponent,
     CostumerComponent,
-    BoardComponent
+    BoardComponent,
+    StarComponent,
+    StarOffComponent
   ],
   imports: [
     CommonModule,
