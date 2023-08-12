@@ -8,7 +8,7 @@ import { Component, Input, OnInit, ViewChild } from '@angular/core';
 
 export class KidsBoardComponent implements OnInit{
   @Input() KidName!: string;
-  @Input() HeaderBelow!: string;
+  @Input() age!: number;
   @Input() kidInfo!: string;
   @Input() girlOrBoy!: string;
   @Input() stars!: number;
@@ -24,7 +24,6 @@ export class KidsBoardComponent implements OnInit{
     this.girlOrBoy == 'boy' ? this.backgroundColor = '#8AAAE5' : this.backgroundColor = '#F7C5CC';
     this.starsArray = Array(this.stars)
     this.starsOffArray = Array(10 - this.stars)
-    console.log(this.starsArray)
   }
 
   toggle() {

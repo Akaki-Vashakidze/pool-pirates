@@ -77,6 +77,11 @@
   padding: 20px 10px;
 }
 
+.listForKids {
+  position: relative;
+  padding: 20px 10px;
+}
+
 .skill {
   display: flex;
   flex-direction: row;
@@ -124,6 +129,16 @@
   padding: 10px;
 }
 
+.starsForKids {
+  display: grid;
+  grid-template-columns: 30px 30px 30px 30px 30px;
+  text-align: center;
+  align-items: center;
+  // background-color: rgb(246, 55, 55);
+  border-radius: 10px;
+  padding: 10px;
+}
+
 .kidInfo {
   margin-top: 10px;
 }
@@ -132,6 +147,7 @@
   font-size: 12px;
   position: absolute;
   right: 0;
-  bottom: -20px;
+  bottom: 10px;
+  right: 10px;
   cursor: pointer;
 }

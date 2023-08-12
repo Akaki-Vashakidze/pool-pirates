@@ -5,7 +5,9 @@ import { CostumerRoutinModule } from "./costumer-routing.module";
 import { BoardComponent } from './components/board/board.component';
 import { CommonModule } from "@angular/common";
 import { StarComponent } from './components/star/star.component';
-import { StarOffComponent } from './star-off/star-off.component';
+import { StarOffComponent } from './components/star-off/star-off.component';
+import { StarKidsComponent } from "./components/star-kids/star-kids.component";
+import { StarOffKidsComponent } from "./components/star-off-kids/star-off-kids.component";
 
 
 @NgModule({
@@ -14,7 +16,9 @@ import { StarOffComponent } from './star-off/star-off.component';
     CostumerComponent,
     BoardComponent,
     StarComponent,
-    StarOffComponent
+    StarOffComponent,
+    StarKidsComponent,
+    StarOffKidsComponent
   ],
   imports: [
     CommonModule,
