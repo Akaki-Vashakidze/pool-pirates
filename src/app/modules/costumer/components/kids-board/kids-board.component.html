@@ -1,4 +1,4 @@
-<div id="card" class="card" (mouseleave)="mouseLeave()" (click)="toggle()">
+<div id="card" class="card" (click)="toggle()">
     <div class="leftCard">
         <div [ngClass]="addHoverClassToLeft ? 'hover': ''" [ngStyle]="{'background-color':backgroundColor}" id="left"
             class="left">
@@ -10,29 +10,11 @@
                 </div>
             </div>
             <div [ngStyle]="{'background-color':backgroundColor}" class="right">
-                <div *ngIf="age > 7" class="list">
-                    <div class="skill"><app-star color="red" size="8px"></app-star><p class="swimDesc">swims butterfly</p></div>
-                    <div class="skill"><app-star color="red" size="8px"></app-star><p class="swimDesc">swims butterfly</p></div>
-                    <div class="skill"><app-star color="red" size="8px"></app-star><p class="swimDesc">swims butterfly</p></div>
-                    <div class="skill"><app-star color="red" size="8px"></app-star><p class="swimDesc">swims butterfly</p></div>
-                    <div class="skill"><app-star color="red" size="8px"></app-star><p class="swimDesc">swims butterfly</p></div>
-                    <div class="skill"><app-star color="red" size="8px"></app-star><p class="swimDesc">swims butterfly</p></div>
-                    <div class="skill"><app-star color="red" size="8px"></app-star><p class="swimDesc">swims butterfly</p></div>
-                    <div class="skill"><app-star color="red" size="8px"></app-star><p class="swimDesc">swims butterfly</p></div>
-                    <div class="skill"><app-star color="red" size="8px"></app-star><p class="swimDesc">swims butterfly</p></div>
-                    <div class="skill"><app-star color="red" size="8px"></app-star><p class="swimDesc">swims butterfly</p></div>
+                <div *ngIf="age > 6" class="fontSizeSmall list">
+                    <div *ngFor="let skill of skills" class="skill"><app-star color="red" size="8px"></app-star><p class="swimDesc">{{skill}}</p></div>
                 </div>
-                <div *ngIf="age <= 7" class="listForKids">
-                    <div class="skill"><app-star-kids color="red" size="8px"></app-star-kids><p class="swimDesc">swims butterfly</p></div>
-                    <div class="skill"><app-star-kids color="red" size="8px"></app-star-kids><p class="swimDesc">swims butterfly</p></div>
-                    <div class="skill"><app-star-kids color="red" size="8px"></app-star-kids><p class="swimDesc">swims butterfly</p></div>
-                    <div class="skill"><app-star-kids color="red" size="8px"></app-star-kids><p class="swimDesc">swims butterfly</p></div>
-                    <div class="skill"><app-star-kids color="red" size="8px"></app-star-kids><p class="swimDesc">swims butterfly</p></div>
-                    <div class="skill"><app-star-kids color="red" size="8px"></app-star-kids><p class="swimDesc">swims butterfly</p></div>
-                    <div class="skill"><app-star-kids color="red" size="8px"></app-star-kids><p class="swimDesc">swims butterfly</p></div>
-                    <div class="skill"><app-star-kids color="red" size="8px"></app-star-kids><p class="swimDesc">swims butterfly</p></div>
-                    <div class="skill"><app-star-kids color="red" size="8px"></app-star-kids><p class="swimDesc">swims butterfly</p></div>
-                    <div class="skill"><app-star-kids color="red" size="8px"></app-star-kids><p class="swimDesc">swims butterfly</p></div>
+                <div *ngIf="age <= 6" class="fontSizeSmall listForKids">
+                    <div *ngFor="let skill of skills" class="skill"><app-star-kids color="red" size="8px"></app-star-kids><p class="swimDesc">{{skill}}</p></div>
                 </div>
             </div>
         </div>
@@ -43,11 +25,11 @@
                 <div class="header1">
                     <h3>{{'Starfishes ' + stars + '/10'}}</h3>
                 </div>
-                <div *ngIf="age > 7" class="stars">
+                <div *ngIf="age > 6" class="stars">
                     <app-star size="15px" *ngFor="let star of starsArray"></app-star>
                     <app-star-off size="15px" *ngFor="let star of starsOffArray"></app-star-off>
                 </div>
-                <div *ngIf="age <= 7"  class="starsForKids">
+                <div *ngIf="age <= 6"  class="starsForKids">
                     <app-star-kids size="10px" *ngFor="let star of starsArray"></app-star-kids>
                     <app-star-off-kids size="10px" *ngFor="let star of starsOffArray"></app-star-off-kids>
                 </div>

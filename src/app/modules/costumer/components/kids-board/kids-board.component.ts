@@ -11,9 +11,10 @@ export class KidsBoardComponent implements OnInit{
   @Input() age!: number;
   @Input() kidInfo!: string;
   @Input() girlOrBoy!: string;
-  @Input() stars!: number;
+  @Input() stars!: any;
   @Input() imgName!: string;
   @Input() levelImage!: any;
+  @Input() skills!: any;
 
   backgroundColor:any = '';
   starsArray!:any;
@@ -31,9 +32,9 @@ export class KidsBoardComponent implements OnInit{
    this.addHoverClassToLeft = !this.addHoverClassToLeft
   }
 
-  mouseLeave(){
-    if(this.addHoverClassToLeft) {
-      this.addHoverClassToLeft = false
-    }
-  }
+  // mouseLeave(){
+  //   if(this.addHoverClassToLeft) {
+  //     this.addHoverClassToLeft = false
+  //   }
+  // }
 }

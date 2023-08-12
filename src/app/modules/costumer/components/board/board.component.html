@@ -7,7 +7,7 @@
             name="search">
     </div>
     <div class="cards">
-        <app-kids-board *ngFor="let kid of filteredSwimmers" [stars]="kid.stars" [imgName]="kid.img"
-            [KidName]="kid.name" [kidInfo]="kid.about" [age]='5' [girlOrBoy]="kid.gender"></app-kids-board>
+        <app-kids-board *ngFor="let kid of filteredSwimmers" [stars]="kid.skills?.length" [imgName]="kid.img"
+           [skills]="kid.skills" [KidName]="kid.name" [kidInfo]="kid.about" [age]='kid.age' [girlOrBoy]="kid.gender"></app-kids-board>
     </div>
 </div>
