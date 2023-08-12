@@ -8,6 +8,7 @@ import { StarComponent } from './components/star/star.component';
 import { StarOffComponent } from './components/star-off/star-off.component';
 import { StarKidsComponent } from "./components/star-kids/star-kids.component";
 import { StarOffKidsComponent } from "./components/star-off-kids/star-off-kids.component";
+import { StarsInfoComponent } from './components/stars-info/stars-info.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { StarOffKidsComponent } from "./components/star-off-kids/star-off-kids.c
     StarComponent,
     StarOffComponent,
     StarKidsComponent,
-    StarOffKidsComponent
+    StarOffKidsComponent,
+    StarsInfoComponent
   ],
   imports: [
     CommonModule,

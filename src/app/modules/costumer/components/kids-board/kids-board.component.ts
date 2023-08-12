@@ -13,6 +13,7 @@ export class KidsBoardComponent implements OnInit{
   @Input() girlOrBoy!: string;
   @Input() stars!: number;
   @Input() imgName!: string;
+  @Input() levelImage!: any;
 
   backgroundColor:any = '';
   starsArray!:any;

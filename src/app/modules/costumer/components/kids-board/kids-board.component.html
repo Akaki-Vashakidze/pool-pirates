@@ -5,7 +5,7 @@
             <div class="leftleft">
                 <div>
                     <h2>{{KidName}}</h2>
-                    <img width="100px" [src]="'../assets/images/' + imgName + '.jpg'" alt="">
+                    <img width="100px" [src]="'../assets/images/' + imgName" alt="">
                     <h3>{{age + ' years'}}</h3>
                 </div>
             </div>
@@ -41,7 +41,7 @@
         <div class="rightCardContent">
             <div class="rightContainer">
                 <div class="header1">
-                    <h3>{{'Stars ' + stars + '/10'}}</h3>
+                    <h3>{{'Starfishes ' + stars + '/10'}}</h3>
                 </div>
                 <div *ngIf="age > 7" class="stars">
                     <app-star size="15px" *ngFor="let star of starsArray"></app-star>

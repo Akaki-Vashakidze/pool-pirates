@@ -1,0 +1,23 @@
+<div class="container">
+    <h2>How Starfishes are collected</h2>
+    <div class="cont2">
+        <div class="under5">
+            <h3>3-7 years old kids</h3>
+            <div class="rulesContainer">
+                <div *ngFor="let rule of kidsRules" class="rules">
+                    <div><app-star-kids size="8px"></app-star-kids></div>
+                    <div class="kidsRule">{{rule}}</div>
+                </div>
+            </div>
+        </div>
+        <div class="over5">
+            <h3>8 years and older</h3>
+            <div class="rulesContainer">
+                <div *ngFor="let rule of Rules" class="rules">
+                    <div><app-star size="12px"></app-star></div>
+                    <div class="rule">{{rule}}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
