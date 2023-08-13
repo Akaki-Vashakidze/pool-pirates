@@ -37,7 +37,7 @@ export class BoardComponent implements OnInit {
       age: 7,
       about: "Likes swimming freestyle",
       gender: 'boy',
-      img: imageList.GREENFISH,
+      img: imageList.BLUEWHALE,
       skills:[skills.BACKSTROKE,skills.BREASTSTROKE,skills.FREESTYLE,skills.HEADDIVE,skills.BUTTERFLY,skills.BREASTSTROKE]
     },
     {
@@ -45,7 +45,7 @@ export class BoardComponent implements OnInit {
       age: 9,
       about: "Likes doing Butterfly",
       gender: 'girl',
-      img: imageList.SEAHORSE,
+      img: imageList.CRABINSHELL,
       skills:[skills.BACKSTROKE,skills.BREASTSTROKE,skills.FREESTYLE,skills.HEADDIVE,skills.BUTTERFLY,skills.BUTTERFLYUNDERWATER,skills.FREETURN,skills.HOLD25,skills.LAPS8,skills.LAP30]
     },
     {
@@ -53,7 +53,7 @@ export class BoardComponent implements OnInit {
       age: 10,
       about: "Swims 1 lap of freestyle in 26 seconds",
       gender: 'girl',
-      img: imageList.SEAHORSE,
+      img: imageList.GRAY,
       skills:[skills.BACKSTROKE,skills.BREASTSTROKE,skills.FREESTYLE,skills.HEADDIVE,skills.BUTTERFLY,skills.BUTTERFLYUNDERWATER,skills.LAP30,skills.HOLD25,skills.LAPS8]
     },
     {
@@ -61,7 +61,7 @@ export class BoardComponent implements OnInit {
       age: 7,
       about: "Likes swimming Breaststroke",
       gender: 'boy',
-      img: imageList.GREENFISH,
+      img: imageList.PLATE,
       skills:[skills.BACKSTROKE,skills.BREASTSTROKE,skills.FREESTYLE,skills.HEADDIVE,skills.BREASTSTROKE]
     },
     {
@@ -69,7 +69,7 @@ export class BoardComponent implements OnInit {
       age: 9,
       about: "Likes freestyle. Does not like backstroke",
       gender: 'girl',
-      img: imageList.SEAHORSE,
+      img: imageList.PINK3,
       skills:[skills.BACKSTROKE,skills.BREASTSTROKE,skills.FREESTYLE,skills.BUTTERFLY,skills.HEADDIVE,skills.BUTTERFLYUNDERWATER,skills.HOLD25]
     },
     {
@@ -77,7 +77,7 @@ export class BoardComponent implements OnInit {
       age: 9,
       about: "Likes swimming Breaststroke",
       gender: 'boy',
-      img: imageList.GREENFISH,
+      img: imageList.PLATE,
       skills:[skills.BACKSTROKE,skills.BUTTERFLYUNDERWATER,skills.FREESTYLE,skills.BUTTERFLY,skills.BREASTSTROKE,skills.HOLD25,skills.BUTTERFLYUNDERWATER]
     },
     {
@@ -85,7 +85,7 @@ export class BoardComponent implements OnInit {
       age: 7,
       about: "Likes doing races",
       gender: 'boy',
-      img: imageList.GREENFISH,
+      img: imageList.YELLOWCRAB,
       skills:[skills.BACKSTROKE,skills.BUTTERFLYUNDERWATER,skills.FREESTYLE,skills.BUTTERFLY,skills.BREASTSTROKE,skills.BUTTERFLYUNDERWATER,skills.HEADDIVE]
     },
     {
@@ -93,7 +93,7 @@ export class BoardComponent implements OnInit {
       age: 5,
       about: "Likes swim without goggles",
       gender: 'boy',
-      img: imageList.LOBSTER,
+      img: imageList.YELLOWFISHBLUE,
       skills:[kidsSkills.JUMP,kidsSkills.PUTSHEAD,kidsSkills.HOLDBREATH10,kidsSkills.DIVESBOTTOM,kidsSkills.BACKFLOAT,kidsSkills.BREASTSTROKE,kidsSkills.ALONE5,kidsSkills.ACCROSSPOOL,kidsSkills.HEADDIVE]
     },
     {
@@ -101,7 +101,7 @@ export class BoardComponent implements OnInit {
       age: 5,
       about: "Likes diving.",
       gender: 'boy',
-      img: imageList.LOBSTER,
+      img: imageList.TURTLE,
       skills:[kidsSkills.JUMP,kidsSkills.PUTSHEAD,kidsSkills.HOLDBREATH10,kidsSkills.DIVESBOTTOM,kidsSkills.BACKFLOAT,kidsSkills.BREASTSTROKE,kidsSkills.ALONE5,kidsSkills.ACCROSSPOOL,kidsSkills.HEADDIVE]
     },
     {
@@ -109,7 +109,7 @@ export class BoardComponent implements OnInit {
       age: 5,
       about: "Likes floating on his back",
       gender: 'boy',
-      img: imageList.LOBSTER,
+      img: imageList.BLUEMED,
       skills:[kidsSkills.JUMP,kidsSkills.PUTSHEAD,kidsSkills.HOLDBREATH10,kidsSkills.BACKFLOAT,kidsSkills.ALONE5,kidsSkills.ACCROSSPOOL]
     },
     {
@@ -117,7 +117,7 @@ export class BoardComponent implements OnInit {
       age: 10,
       about: "Likes breaststroke",
       gender: 'boy',
-      img: imageList.LOBSTER,
+      img: imageList.CRAB2,
       skills:[skills.BACKSTROKE,skills.BREASTSTROKE,skills.FREESTYLE,skills.BUTTERFLY,skills.BUTTERFLYUNDERWATER,skills.HOLD25,skills.LAPS8]
     },
     {
@@ -125,7 +125,7 @@ export class BoardComponent implements OnInit {
       age: 6,
       about: "Likes swmming with fins",
       gender: 'boy',
-      img: imageList.LOBSTER,
+      img: imageList.GREENFISH4,
       skills:[kidsSkills.JUMP,kidsSkills.PUTSHEAD,kidsSkills.HOLDBREATH10,kidsSkills.DIVESBOTTOM,kidsSkills.BACKFLOAT,kidsSkills.ALONE5,kidsSkills.ACCROSSPOOL]
     },
     {
@@ -133,7 +133,7 @@ export class BoardComponent implements OnInit {
       age: 4,
       about: "Loves swimming",
       gender: 'girl',
-      img: imageList.LOBSTER,
+      img: imageList.YELLOWFISH5,
       skills:[kidsSkills.JUMP,kidsSkills.PUTSHEAD,kidsSkills.HOLDBREATH10,kidsSkills.DIVESBOTTOM,kidsSkills.BACKFLOAT,kidsSkills.ALONE5]
     },
     {
@@ -141,7 +141,7 @@ export class BoardComponent implements OnInit {
       age: 4,
       about: "Likes swimming backstroke",
       gender: 'girl',
-      img: imageList.LOBSTER,
+      img: imageList.STAFIL,
       skills:[kidsSkills.JUMP,kidsSkills.PUTSHEAD,kidsSkills.BACKFLOAT,kidsSkills.ALONE5]
     },
     {
@@ -157,7 +157,7 @@ export class BoardComponent implements OnInit {
       age: 5,
       about: "Likes doing backstroke",
       gender: 'girl',
-      img: imageList.LOBSTER,
+      img: imageList.YELLOW,
       skills:[kidsSkills.JUMP,kidsSkills.PUTSHEAD,kidsSkills.HOLDBREATH10,kidsSkills.DIVESBOTTOM,kidsSkills.BREASTSTROKE,kidsSkills.BACKFLOAT,kidsSkills.ALONE5,kidsSkills.BACKSTROKE,kidsSkills.ACCROSSPOOL]
     },
     {
@@ -165,7 +165,7 @@ export class BoardComponent implements OnInit {
       age: 4,
       about: "Likes floating with noodle",
       gender: 'boy',
-      img: imageList.LOBSTER,
+      img: imageList.YELLOWCRAB,
       skills:[kidsSkills.JUMP,kidsSkills.PUTSHEAD,kidsSkills.ALONE5]
     },
     {
@@ -173,7 +173,7 @@ export class BoardComponent implements OnInit {
       age: 5,
       about: "Likes taking toys from the bottom of the pool",
       gender: 'boy',
-      img: imageList.LOBSTER,
+      img: imageList.BLUEFISH1,
       skills:[kidsSkills.JUMP,kidsSkills.PUTSHEAD,kidsSkills.HOLDBREATH10,kidsSkills.DIVESBOTTOM,kidsSkills.BACKFLOAT,kidsSkills.BREASTSTROKE,]
     },
     {
@@ -181,7 +181,7 @@ export class BoardComponent implements OnInit {
       age: 9,
       about: "Very attentive",
       gender: 'boy',
-      img: imageList.LOBSTER,
+      img: imageList.WHALE,
       skills:[skills.BACKSTROKE,skills.BREASTSTROKE,skills.HEADDIVE,skills.FREESTYLE,skills.BUTTERFLYUNDERWATER,skills.HOLD25]
     },
     {
@@ -189,7 +189,7 @@ export class BoardComponent implements OnInit {
       age: 5,
       about: "Swimming freestile few meters",
       gender: 'boy',
-      img: imageList.LOBSTER,
+      img: imageList.WHALE2,
       skills:[kidsSkills.JUMP,kidsSkills.PUTSHEAD,kidsSkills.HOLDBREATH10,kidsSkills.HEADDIVE,kidsSkills.DIVESBOTTOM,kidsSkills.BACKFLOAT,kidsSkills.BREASTSTROKE,]
     },
     {
@@ -197,7 +197,7 @@ export class BoardComponent implements OnInit {
       age: 5,
       about: "likes swimming freestile",
       gender: 'boy',
-      img: imageList.LOBSTER,
+      img: imageList.SEASTARYELLOW,
       skills:[kidsSkills.JUMP,kidsSkills.PUTSHEAD,kidsSkills.HOLDBREATH10,kidsSkills.HEADDIVE,kidsSkills.DIVESBOTTOM,kidsSkills.BACKFLOAT,kidsSkills.BREASTSTROKE,]
     },
     {
@@ -205,7 +205,7 @@ export class BoardComponent implements OnInit {
       age: 5,
       about: "Swimming freestile few meters",
       gender: 'boy',
-      img: imageList.LOBSTER,
+      img: imageList.OCTOPUTS,
       skills:[kidsSkills.JUMP,kidsSkills.ALONE5,kidsSkills.PUTSHEAD,kidsSkills.HOLDBREATH10,kidsSkills.HEADDIVE,kidsSkills.DIVESBOTTOM,kidsSkills.BACKFLOAT,kidsSkills.BREASTSTROKE,]
     },
     {
@@ -213,7 +213,7 @@ export class BoardComponent implements OnInit {
       age: 7,
       about: "Likes floating on her back",
       gender: 'girl',
-      img: imageList.REDFISH,
+      img: imageList.GREENLIGHTFISH,
       skills:[skills.BACKSTROKE,skills.BREASTSTROKE,skills.FREESTYLE,skills.BUTTERFLY,skills.BUTTERFLYUNDERWATER,skills.BUTTERFLY]
     },
     {
@@ -221,7 +221,7 @@ export class BoardComponent implements OnInit {
       age: 7,
       about: "Likes doing Breaststroke",
       gender: 'boy',
-      img: imageList.REDFISH,
+      img: imageList.BLUEFISH6,
       skills:[skills.BACKSTROKE,skills.BREASTSTROKE,skills.FREESTYLE,skills.BUTTERFLYUNDERWATER,skills.BUTTERFLY,skills.HEADDIVE,skills.HOLD25]
     },
     {
@@ -237,7 +237,7 @@ export class BoardComponent implements OnInit {
       age: 7,
       about: "Likes jumping in the pool",
       gender: 'girl',
-      img: imageList.SEAHORSE,
+      img: imageList.SEASTAR,
       skills:[skills.BACKSTROKE,skills.BREASTSTROKE,skills.FREESTYLE,skills.HEADDIVE,skills.BUTTERFLYUNDERWATER,skills.HOLD25]
     },
     {
@@ -245,7 +245,7 @@ export class BoardComponent implements OnInit {
       age: 9,
       about: "Can swim Butterfly without fins.",
       gender: 'girl',
-      img: imageList.SEAHORSE,
+      img: imageList.GRAY,
       skills:[skills.BACKSTROKE,skills.BREASTSTROKE,skills.FREESTYLE,skills.HEADDIVE,skills.BUTTERFLY,skills.BUTTERFLYUNDERWATER,skills.FREETURN,skills.HOLD25,skills.LAP30]
     },
     {
@@ -253,7 +253,7 @@ export class BoardComponent implements OnInit {
       age: 7,
       about: "Likes swimming freestyle",
       gender: 'boy',
-      img: imageList.GREENFISH,
+      img: imageList.YELLOW3CRAD,
       skills:[skills.BACKSTROKE,skills.BREASTSTROKE,skills.FREESTYLE,skills.HEADDIVE,skills.BUTTERFLY,skills.BREASTSTROKE]
     },
     {
@@ -261,7 +261,7 @@ export class BoardComponent implements OnInit {
       age: 5,
       about: "Likes swimming breaststroke",
       gender: 'girl',
-      img: imageList.SEAHORSE,
+      img: imageList.GREENFISH,
       skills:[kidsSkills.JUMP,kidsSkills.PUTSHEAD,kidsSkills.HOLDBREATH10,kidsSkills.BACKFLOAT,kidsSkills.BREASTSTROKE,kidsSkills.ACCROSSPOOL]
     },
     {
