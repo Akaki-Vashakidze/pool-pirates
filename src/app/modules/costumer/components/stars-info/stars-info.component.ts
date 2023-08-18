@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { kidsSkills, skills } from 'src/assets/ENUMS/enums';
+import { easySkills,middleSkills,hardskills } from 'src/assets/ENUMS/enums';
 
 @Component({
   selector: 'app-stars-info',
@@ -7,29 +7,42 @@ import { kidsSkills, skills } from 'src/assets/ENUMS/enums';
   styleUrls: ['./stars-info.component.scss']
 })
 export class StarsInfoComponent {
-  kidsRules = [
-    kidsSkills.JUMP,
-    kidsSkills.PUTSHEAD,
-    kidsSkills.HOLDBREATH10,
-    kidsSkills.DIVESBOTTOM,
-    kidsSkills.BACKFLOAT,
-    kidsSkills.BACKSTROKE,
-    kidsSkills.BREASTSTROKE,
-    kidsSkills.ALONE5,
-    kidsSkills.HEADDIVE,
-    kidsSkills.ACCROSSPOOL
+  easySkills = [
+    easySkills.JUMP,
+    easySkills.PUTSHEAD,
+    easySkills.HOLDBREATH10,
+    easySkills.DIVESBOTTOM,
+    easySkills.BACKFLOAT,
+    easySkills.BACKSTROKE,
+    easySkills.FLOATS,
+    easySkills.ALONE5,
+    easySkills.HEADDIVE,
+    easySkills.ACCROSSPOOL
   ]
 
-  Rules = [
-    skills.BACKSTROKE,
-    skills.BREASTSTROKE,
-    skills.FREESTYLE,
-    skills.HEADDIVE,
-    skills.HOLD25,
-    skills.BUTTERFLYUNDERWATER,
-    skills.BUTTERFLY,
-    skills.LAP30,
-    skills.FREETURN,
-    skills.LAPS8
+  middleSkills = [
+    middleSkills.HOLD25,
+    middleSkills.HEADDIVE,
+    middleSkills.KICKS,
+    middleSkills.BREASTKICK,
+    middleSkills.FLIPTURN,
+    middleSkills.BACKSTROKE,
+    middleSkills.BREASTSTROKE,
+    middleSkills.FREESTYLE,
+    middleSkills.LAP40,
+    middleSkills.UNDERWATER7
+  ]
+
+  highSkills = [
+    hardskills.BACKSTROKE40,
+    hardskills.BREASTSTROKE40,
+    hardskills.FREESTYLE35,
+    hardskills.BUTTERFLY,
+    hardskills.HEADDIVE,
+    hardskills.HOLD40,
+    hardskills.BUTTERFLYUNDERWATER,
+    hardskills.UNDERWATER10,
+    hardskills.FREETURN,
+    hardskills.LAPS8
   ]
 }

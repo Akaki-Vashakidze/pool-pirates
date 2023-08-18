@@ -60,28 +60,44 @@ export enum levelImages {
     LEVEL10 = 'level10.PNG',
 }
 
-export enum skills {
-    BACKSTROKE = 'Swims Backstroke',
-    BREASTSTROKE = 'Swims Breaststroke',
-    FREESTYLE = 'Swims Freestyle',
+//10 years and older
+export enum hardskills {
+    BACKSTROKE40 = 'Swims Backstroke less than 40 seconds',
+    BREASTSTROKE40 = 'Swims Breaststroke less than 40 seconds',
+    FREESTYLE35 = 'Swims Freestyle less than 35 seconds',
     BUTTERFLY = 'Swims Butterfly',
     HEADDIVE = 'Head dive in the pool',
-    HOLD25 = 'Hold breath more than 25 seconds',
+    HOLD40 = 'Hold breath more than 30 seconds',
     BUTTERFLYUNDERWATER = 'Can do underwater Butterfly kicks',
-    LAP30 = 'Swims one lap less than 30 seconds',
+    UNDERWATER10 = "Can swim underwater 10 meters(33 feet)",
     FREETURN = 'Can do freestyle flip turn',
     LAPS8 = 'Can do 8 laps(200m) without brake'
 }
 
-export enum kidsSkills {
-    JUMP = 'Jumps in the water',
+// 7-9 years old
+export enum middleSkills {
+    HOLD25 = 'Hold breath more than 20 seconds',
+    HEADDIVE = 'Head dive in the pool',
+    KICKS = "Can do Freestyle, Butterfly and Backstroke kicking with kickboard",
+    BREASTKICK = 'Can do breaststroke kicks',
+    FLIPTURN = "Can do a flip turn underwater",
+    BACKSTROKE = 'Swims Backstroke',
+    FREESTYLE = 'Swims Freestyle',
+    BREASTSTROKE = 'Swims Breaststroke',
+    LAP40 = 'Swims one lap less than 40 seconds(any stroke)',
+    UNDERWATER7 = "Can swim underwater 7 meters(25 feet)"
+}
+
+// 4-6 years old 
+export enum easySkills {
+    FLOATS = "Can float for 10 seconds",
     PUTSHEAD = 'Puts head underwater',
+    JUMP = 'Jumps in the water',
     HOLDBREATH10 = 'Hold breath more than 10 seconds',
     DIVESBOTTOM = 'Swims to the bottom(1.5m)',
     BACKFLOAT = 'Lies on back and floats',
-    BACKSTROKE = 'Swims Backstroke',
-    BREASTSTROKE = 'Swims Breaststroke',
     ALONE5 = 'Swims 5-7 meters alone',
+    BACKSTROKE = 'Swims Backstroke',
     HEADDIVE = 'Head dive in the pool',
-    ACCROSSPOOL = 'Swims across the pool(25m)',
+    ACCROSSPOOL = 'Swims across the pool',
 }
