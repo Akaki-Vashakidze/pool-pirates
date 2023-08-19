@@ -66,7 +66,7 @@ export enum hardskills {
     BREASTSTROKE40 = 'Swims Breaststroke less than 40 seconds',
     FREESTYLE35 = 'Swims Freestyle less than 35 seconds',
     BUTTERFLY = 'Swims Butterfly',
-    HEADDIVE = 'Head dive in the pool',
+    HEADDIVE = 'Dive in the pool',
     HOLD40 = 'Hold breath more than 30 seconds',
     BUTTERFLYUNDERWATER = 'Can do underwater Butterfly kicks',
     UNDERWATER10 = "Can swim underwater 10 meters(33 feet)",
@@ -77,7 +77,7 @@ export enum hardskills {
 // 7-9 years old
 export enum middleSkills {
     HOLD25 = 'Hold breath more than 20 seconds',
-    HEADDIVE = 'Head dive in the pool',
+    HEADDIVE = 'Dive in the pool',
     KICKS = "Can do Freestyle, Butterfly and Backstroke kicking with kickboard",
     BREASTKICK = 'Can do breaststroke kicks',
     FLIPTURN = "Can do a flip turn underwater",
@@ -98,6 +98,6 @@ export enum easySkills {
     BACKFLOAT = 'Lies on back and floats',
     ALONE5 = 'Swims 5-7 meters alone',
     BACKSTROKE = 'Swims Backstroke',
-    HEADDIVE = 'Head dive in the pool',
+    HEADDIVE = 'Dive in the pool',
     ACCROSSPOOL = 'Swims across the pool',
 }
