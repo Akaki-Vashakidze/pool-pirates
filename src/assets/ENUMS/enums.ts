@@ -62,12 +62,12 @@ export enum levelImages {
 
 //10 years and older
 export enum hardskills {
-    BACKSTROKE40 = 'Swims Backstroke less than 40 seconds',
-    BREASTSTROKE40 = 'Swims Breaststroke less than 40 seconds',
-    FREESTYLE35 = 'Swims Freestyle less than 35 seconds',
+    BACKSTROKE40 = 'Swims Backstroke(25m) less than 35 seconds',
+    BREASTSTROKE40 = 'Swims Breaststroke(25m) less than 35 seconds',
+    FREESTYLE35 = 'Swims Freestyle(25m) less than 32 seconds',
     BUTTERFLY = 'Swims Butterfly',
     HEADDIVE = 'Dives in the pool',
-    HOLD40 = 'Hold breath more than 30 seconds',
+    HOLD40 = 'Holds breath more than 30 seconds',
     BUTTERFLYUNDERWATER = 'Can do underwater Butterfly kicks',
     UNDERWATER10 = "Can swim underwater 10 meters(33 feet)",
     FREETURN = 'Can do freestyle flip turn',
@@ -76,7 +76,7 @@ export enum hardskills {
 
 // 7-9 years old
 export enum middleSkills {
-    HOLD25 = 'Hold breath more than 20 seconds',
+    HOLD25 = 'Holds breath more than 20 seconds',
     HEADDIVE = 'Dives in the pool',
     KICKS = "Can do Freestyle, Butterfly and Backstroke kicking with kickboard",
     BREASTKICK = 'Can do breaststroke kicks',
@@ -84,7 +84,7 @@ export enum middleSkills {
     BACKSTROKE = 'Swims Backstroke',
     FREESTYLE = 'Swims Freestyle',
     BREASTSTROKE = 'Swims Breaststroke',
-    LAP40 = 'Swims one lap less than 40 seconds(any stroke)',
+    LAP40 = 'Swims one lap(25m) less than 40 seconds(any stroke)',
     UNDERWATER7 = "Can swim underwater 7 meters(25 feet)"
 }
 
@@ -93,7 +93,7 @@ export enum easySkills {
     FLOATS = "Can float for 10 seconds",
     PUTSHEAD = 'Puts head underwater',
     JUMP = 'Jumps in the water',
-    HOLDBREATH10 = 'Hold breath more than 10 seconds',
+    HOLDBREATH10 = 'Holds breath more than 10 seconds',
     DIVESBOTTOM = 'Swims to the bottom(1.5m)',
     BACKFLOAT = 'Lies on back and floats',
     ALONE5 = 'Swims 5-7 meters alone',
