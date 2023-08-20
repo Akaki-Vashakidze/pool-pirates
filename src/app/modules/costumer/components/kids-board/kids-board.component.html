@@ -6,15 +6,18 @@
                 <div>
                     <h2>{{KidName}}</h2>
                     <img width="100px" [src]="'../assets/images/' + imgName" alt="">
-                    <h3>{{age + ' years'}}</h3>
+                    <h3 >{{age + ' years'}}</h3>
                 </div>
             </div>
             <div [ngStyle]="{'background-color':backgroundColor}" class="right">
-                <div *ngIf="age > 6" class="fontSizeSmall list">
-                    <div *ngFor="let skill of skills" class="skill"><app-star color="red" size="8px"></app-star><p class="swimDesc">{{skill}}</p></div>
+                <div *ngIf="age > 9" class="fontSizeSmall list">
+                    <div *ngFor="let skill of skills" class="skill"><div><img width="23px" src="../assets/images/pearl.png" alt=""></div><p class="swimDesc">{{skill}}</p></div>
+                </div>
+                <div *ngIf="age > 6 && age < 10" class="fontSizeSmall list">
+                    <div *ngFor="let skill of skills" class="skill"><div><img width="19px" src="../assets/images/shell10.png" alt=""></div><p class="swimDesc">{{skill}}</p></div>
                 </div>
                 <div *ngIf="age <= 6" class="fontSizeSmall listForKids">
-                    <div *ngFor="let skill of skills" class="skill"><app-star-kids color="red" size="8px"></app-star-kids><p class="swimDesc">{{skill}}</p></div>
+                    <div *ngFor="let skill of skills" class="skill"><div><img width="20px" src="../assets/images/seastar.png" alt=""></div><p class="swimDesc">{{skill}}</p></div>
                 </div>
             </div>
         </div>
@@ -23,15 +26,21 @@
         <div class="rightCardContent">
             <div class="rightContainer">
                 <div class="header1">
-                    <h3>{{'Starfishes ' + stars + '/10'}}</h3>
+                    <h3 class="grades" *ngIf="age > 9">{{'Pearl ' + stars + '/10'}}</h3>
+                    <h3 class="grades" *ngIf="age > 6 && age < 10">{{'Sea Shell ' + stars + '/10'}}</h3>
+                    <h3 class="grades" *ngIf="age <= 6">{{'Starfish ' + stars + '/10'}}</h3>
                 </div>
-                <div *ngIf="age > 6" class="stars">
-                    <app-star size="15px" *ngFor="let star of starsArray"></app-star>
-                    <app-star-off size="15px" *ngFor="let star of starsOffArray"></app-star-off>
+                <div *ngIf="age > 9" class="stars">
+                    <div *ngFor="let skill of skills"><img width="33px" src="../assets/images/pearl.png" alt=""></div>
+                    <div *ngFor="let off of starsOffArray" [ngStyle]="{'opacity':'0.25'}"><img width="33px" src="../assets/images/pearl.png" alt=""></div>
+                </div>
+                <div *ngIf="age > 6 && age < 10" class="stars">
+                    <div *ngFor="let skill of skills"><img width="27px" src="../assets/images/shell10.png" alt=""></div>
+                    <div *ngFor="let off of starsOffArray"  [ngStyle]="{'opacity':'0.25'}"><img width="27px" src="../assets/images/shell10.png" alt=""></div>
                 </div>
                 <div *ngIf="age <= 6"  class="starsForKids">
-                    <app-star-kids size="10px" *ngFor="let star of starsArray"></app-star-kids>
-                    <app-star-off-kids size="10px" *ngFor="let star of starsOffArray"></app-star-off-kids>
+                    <div *ngFor="let skill of skills"><img width="27px" src="../assets/images/seastar.png" alt=""></div>
+                    <div *ngFor="let off of starsOffArray"  [ngStyle]="{'opacity':'0.25'}"><img width="27px" src="../assets/images/seastar.png" alt=""></div>
                 </div>
                 <div class="kidInfo">{{kidInfo}}</div>
             </div>

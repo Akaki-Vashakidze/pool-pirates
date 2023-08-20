@@ -9,11 +9,11 @@ import { imageList, easySkills, middleSkills,hardskills } from 'src/assets/ENUMS
 export class BoardComponent implements OnInit {
   kidsArray = [
     {
-      name: 'Heizel',
+      name: 'Hazel',
       age: 9,
       about: "Likes doing bubbles underwater",
       gender: 'girl',
-      img: imageList.SEAHORSE,
+      img: imageList.PIKCRAB,
       skills:[middleSkills.BACKSTROKE,middleSkills.BREASTKICK,middleSkills.FREESTYLE,middleSkills.HEADDIVE,middleSkills.HOLD25,middleSkills.KICKS,middleSkills.UNDERWATER7]
     },
     {
@@ -29,12 +29,12 @@ export class BoardComponent implements OnInit {
       age: 7,
       about: "Likes diving",
       gender: 'boy',
-      img: imageList.GREENFISH,
+      img: imageList.GREENLIGHTFISH,
       skills:[middleSkills.BACKSTROKE,middleSkills.BREASTKICK,middleSkills.BREASTSTROKE,middleSkills.FLIPTURN,middleSkills.FREESTYLE,middleSkills.HEADDIVE,middleSkills.HOLD25,middleSkills.KICKS]
     },
     {
-      name: 'Emran',
-      age: 7,
+      name: 'Imran',
+      age: 8,
       about: "Likes swimming freestyle",
       gender: 'boy',
       img: imageList.BLUEWHALE,
@@ -69,7 +69,7 @@ export class BoardComponent implements OnInit {
       age: 10,
       about: "Can do 10 laps of freestyle kicks in a row",
       gender: 'boy',
-      img: imageList.SHARK,
+      img: imageList.GREENFISH5,
       skills:[middleSkills.BACKSTROKE,middleSkills.BREASTKICK,middleSkills.BREASTSTROKE,middleSkills.HOLD25,middleSkills.KICKS,middleSkills.UNDERWATER7]
     },   
      {
@@ -89,7 +89,7 @@ export class BoardComponent implements OnInit {
       skills:[middleSkills.BACKSTROKE,middleSkills.BREASTKICK,middleSkills.BREASTSTROKE,middleSkills.FREESTYLE,middleSkills.HOLD25,middleSkills.KICKS,middleSkills.LAP40,middleSkills.UNDERWATER7]
     },
     {
-      name: 'Spenser',
+      name: 'Spencer',
       age: 9,
       about: "Likes swimming Breaststroke",
       gender: 'boy',
@@ -133,7 +133,7 @@ export class BoardComponent implements OnInit {
       age: 10,
       about: "Likes breaststroke",
       gender: 'boy',
-      img: imageList.CRAB2,
+      img: imageList.SHARK,
       skills:[hardskills.BACKSTROKE40,hardskills.BREASTSTROKE40,hardskills.FREESTYLE35,hardskills.BUTTERFLY,hardskills.BUTTERFLYUNDERWATER,hardskills.UNDERWATER10]
     },
 
@@ -168,7 +168,7 @@ export class BoardComponent implements OnInit {
       age: 5,
       about: "Likes jumpin in the pool",
       gender: 'girl',
-      img: imageList.LOBSTER,
+      img: imageList.PINKFISH,
       skills:[easySkills.FLOATS,easySkills.JUMP,easySkills.PUTSHEAD,easySkills.HOLDBREATH10,easySkills.BACKFLOAT,easySkills.ALONE5,easySkills.DIVESBOTTOM]
     },
     {
@@ -176,7 +176,7 @@ export class BoardComponent implements OnInit {
       age: 5,
       about: "Likes doing backstroke",
       gender: 'girl',
-      img: imageList.YELLOW,
+      img: imageList.OCTOPUTS,
       skills:[easySkills.FLOATS,easySkills.JUMP,easySkills.PUTSHEAD,easySkills.HOLDBREATH10,easySkills.DIVESBOTTOM,easySkills.BACKFLOAT,easySkills.ALONE5,easySkills.BACKSTROKE,easySkills.ACCROSSPOOL]
     },
     {
@@ -200,7 +200,7 @@ export class BoardComponent implements OnInit {
       age: 4,
       about: "Likes spending time in the pool.",
       gender: 'girl',
-      img: imageList.GREENFISH,
+      img: imageList.PINKFISH2,
       skills:[easySkills.FLOATS,easySkills.PUTSHEAD,easySkills.ALONE5,easySkills.BACKFLOAT,easySkills.JUMP,easySkills.HOLDBREATH10,easySkills.HEADDIVE]
     },
     {
@@ -236,11 +236,11 @@ export class BoardComponent implements OnInit {
       skills:[easySkills.FLOATS,easySkills.JUMP,easySkills.PUTSHEAD,easySkills.HOLDBREATH10,easySkills.HEADDIVE,easySkills.DIVESBOTTOM,easySkills.BACKFLOAT]
     },
     {
-      name: 'Everan',
+      name: 'Evren',
       age: 5,
       about: "Swimming freestile few meters",
       gender: 'boy',
-      img: imageList.OCTOPUTS,
+      img: imageList.YELLOW,
       skills:[easySkills.FLOATS,easySkills.JUMP,easySkills.ALONE5,easySkills.PUTSHEAD,easySkills.HOLDBREATH10,easySkills.HEADDIVE,easySkills.DIVESBOTTOM,easySkills.BACKFLOAT]
     },
     {
@@ -272,7 +272,7 @@ export class BoardComponent implements OnInit {
       age: 5,
       about: "likes to get toys out of the water",
       gender: 'boy',
-      img: imageList.GREENFISH,
+      img: imageList.CRAB2,
       skills:[easySkills.FLOATS,easySkills.PUTSHEAD,easySkills.ALONE5,easySkills.HOLDBREATH10,easySkills.DIVESBOTTOM]
     },
     {
@@ -286,7 +286,7 @@ export class BoardComponent implements OnInit {
     {
       name: 'Ben',
       age: 11,
-      about: "Likes rasing with his brother against Ako",
+      about: "Likes racing with his brother against Ako",
       gender: 'boy',
       img: imageList.REDFISH,
       skills:[hardskills.BACKSTROKE40,hardskills.BREASTSTROKE40,hardskills.FREESTYLE35,hardskills.HEADDIVE,hardskills.BUTTERFLYUNDERWATER,hardskills.UNDERWATER10,hardskills.LAPS8]
@@ -294,7 +294,7 @@ export class BoardComponent implements OnInit {
     {
       name: 'Oliver',
       age: 13,
-      about: "Likes rasing with his brother against Ako",
+      about: "Likes racing with his brother against Ako",
       gender: 'boy',
       img: imageList.REDFISH,
       skills:[hardskills.BACKSTROKE40,hardskills.BREASTSTROKE40,hardskills.FREESTYLE35,hardskills.BUTTERFLYUNDERWATER,hardskills.UNDERWATER10,hardskills.LAPS8]
@@ -331,6 +331,30 @@ export class BoardComponent implements OnInit {
       img: imageList.SEAHORSE,
       skills:[easySkills.FLOATS,easySkills.JUMP,easySkills.PUTSHEAD,easySkills.HOLDBREATH10,easySkills.BACKSTROKE,easySkills.BACKFLOAT,easySkills.ACCROSSPOOL]
     },
+    {
+      name: 'Ayden',
+      age: 9,
+      about: "Got 4 stars in 4 lessons",
+      gender: 'boy',
+      img: imageList.YELLOWCRAB,
+      skills:[middleSkills.BREASTKICK,middleSkills.BREASTSTROKE,middleSkills.KICKS,middleSkills.HOLD25]
+    },
+    {
+      name: 'Jonah',
+      age: 7,
+      about: "Likes swimming backstroke",
+      gender: 'boy',
+      img: imageList.BLUEWHALE3,
+      skills:[middleSkills.BREASTKICK,middleSkills.BREASTSTROKE,middleSkills.KICKS,middleSkills.HOLD25,middleSkills.FREESTYLE,middleSkills.HEADDIVE,middleSkills.UNDERWATER7]
+    },
+    {
+      name: 'Romy',
+      age: 5,
+      about: "",
+      gender: 'girl',
+      img: imageList.PINKSEAHORSE,
+      skills:[easySkills.ALONE5,easySkills.BACKFLOAT,easySkills.HOLDBREATH10,easySkills.DIVESBOTTOM,easySkills.JUMP,easySkills.PUTSHEAD,easySkills.FLOATS]
+    },
   ]
   
   filteredSwimmers!:any;
@@ -342,9 +366,27 @@ export class BoardComponent implements OnInit {
     })
   }
 
+   shuffle(array:any) {
+    let currentIndex = array.length,  randomIndex;
+  
+    // While there remain elements to shuffle.
+    while (currentIndex != 0) {
+  
+      // Pick a remaining element.
+      randomIndex = Math.floor(Math.random() * currentIndex);
+      currentIndex--;
+  
+      // And swap it with the current element.
+      [array[currentIndex], array[randomIndex]] = [
+        array[randomIndex], array[currentIndex]];
+    }
+  
+    return array;
+  }
+
   ngOnInit(): void {
     // this.kidsArray.sort((a,b) => b.skills.length - a.skills.length);
-    this.filteredSwimmers = this.kidsArray;
+    this.filteredSwimmers = this.shuffle(this.kidsArray)
     setTimeout(() => {
       this.placeholder = 'Search'
     }, 4000);

@@ -28,6 +28,10 @@
   overflow: hidden;
 }
 
+.grades{
+  color: rgb(81, 80, 80);
+}
+
 .leftleft {
   div {
     position: relative;
@@ -70,6 +74,8 @@
   background-color: #8AAAE5;
   left: 150px;
   z-index: 2;
+  overflow: scroll;
+  
 }
 
 .list {
@@ -89,7 +95,7 @@
 
 .swimDesc {
   position: relative;
-  top: 1px;
+  top: 3px;
   margin-left: 6px;
 }
 
