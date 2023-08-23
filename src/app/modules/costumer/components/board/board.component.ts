@@ -285,7 +285,7 @@ export class BoardComponent implements OnInit {
       age: 11,
       about: "One lap(25m) freestyle - 28.7 Seconds",
       gender: 'boy',
-      img: imageList.REDFISH,
+      img: imageList.SHARK,
       skills:[hardskills.BACKSTROKE40,hardskills.BREASTSTROKE40,hardskills.FREESTYLE35,hardskills.HEADDIVE,hardskills.BUTTERFLYUNDERWATER,hardskills.UNDERWATER10,hardskills.LAPS8,hardskills.BUTTERFLYUNDERWATER]
     },
     {
@@ -293,7 +293,7 @@ export class BoardComponent implements OnInit {
       age: 13,
       about: "One lap(25m) freestyle - 32.5 seconds, Breastroke - 31.55 seconds",
       gender: 'boy',
-      img: imageList.REDFISH,
+      img: imageList.WHALE2,
       skills:[hardskills.BACKSTROKE40,hardskills.BREASTSTROKE40,hardskills.FREESTYLE35,hardskills.BUTTERFLYUNDERWATER,hardskills.UNDERWATER10,hardskills.LAPS8,hardskills.BUTTERFLYUNDERWATER]
     },
     {
