@@ -59,7 +59,7 @@ export class BoardComponent implements OnInit {
     {
       name: 'August',
       age: 7,
-      about: "Likes to swim Breaststroke",
+      about: "Likes Breaststroke",
       gender: 'boy',
       img: imageList.PLATE,
       skills:[middleSkills.BACKSTROKE,middleSkills.BREASTKICK,middleSkills.BREASTSTROKE,middleSkills.KICKS,middleSkills.UNDERWATER7]
@@ -182,7 +182,7 @@ export class BoardComponent implements OnInit {
     {
       name: 'Leo',
       age: 4,
-      about: "Likes floating with noodle",
+      about: "Likes to float with swim noodle",
       gender: 'boy',
       img: imageList.YELLOWCRAB,
       skills:[easySkills.JUMP,easySkills.PUTSHEAD,easySkills.ALONE5]
@@ -190,7 +190,7 @@ export class BoardComponent implements OnInit {
     {
       name: 'Warren',
       age: 5,
-      about: "Likes taking toys from the bottom of the pool",
+      about: "Likes to take toys from the bottom of the pool",
       gender: 'boy',
       img: imageList.BLUEFISH1,
       skills:[easySkills.FLOATS,easySkills.JUMP,easySkills.PUTSHEAD,easySkills.HOLDBREATH10,easySkills.DIVESBOTTOM,easySkills.BACKFLOAT,]
@@ -286,18 +286,18 @@ export class BoardComponent implements OnInit {
     {
       name: 'Ben',
       age: 11,
-      about: "Likes racing with his brother against Ako",
+      about: "One lap(25m) freestyle - 28.7 Seconds",
       gender: 'boy',
       img: imageList.REDFISH,
-      skills:[hardskills.BACKSTROKE40,hardskills.BREASTSTROKE40,hardskills.FREESTYLE35,hardskills.HEADDIVE,hardskills.BUTTERFLYUNDERWATER,hardskills.UNDERWATER10,hardskills.LAPS8]
+      skills:[hardskills.BACKSTROKE40,hardskills.BREASTSTROKE40,hardskills.FREESTYLE35,hardskills.HEADDIVE,hardskills.BUTTERFLYUNDERWATER,hardskills.UNDERWATER10,hardskills.LAPS8,hardskills.BUTTERFLYUNDERWATER]
     },
     {
       name: 'Oliver',
       age: 13,
-      about: "One lap(25m) freestyle - 32.5 seconds",
+      about: "One lap(25m) freestyle - 32.5 seconds, Breastroke - 31.55 seconds",
       gender: 'boy',
       img: imageList.REDFISH,
-      skills:[hardskills.BACKSTROKE40,hardskills.BREASTSTROKE40,hardskills.FREESTYLE35,hardskills.BUTTERFLYUNDERWATER,hardskills.UNDERWATER10,hardskills.LAPS8]
+      skills:[hardskills.BACKSTROKE40,hardskills.BREASTSTROKE40,hardskills.FREESTYLE35,hardskills.BUTTERFLYUNDERWATER,hardskills.UNDERWATER10,hardskills.LAPS8,hardskills.BUTTERFLYUNDERWATER]
     },
     {
       name: 'Ariella',
