@@ -45,7 +45,7 @@ export class BoardComponent implements OnInit {
       age: 9,
       about: "Likes doing Butterfly",
       gender: 'girl',
-      img: imageList.CRABINSHELL,
+      img: imageList.CRABINSHELL,  
       skills:[middleSkills.BACKSTROKE,middleSkills.BREASTKICK,middleSkills.BREASTSTROKE,middleSkills.FLIPTURN,middleSkills.FREESTYLE,middleSkills.HEADDIVE,middleSkills.HOLD25,middleSkills.KICKS,middleSkills.LAP40,middleSkills.UNDERWATER7]
     },
     {
@@ -118,7 +118,7 @@ export class BoardComponent implements OnInit {
       about: "Likes to dive",
       gender: 'boy',
       img: imageList.TURTLE,
-      skills:[easySkills.FLOATS,easySkills.JUMP,easySkills.PUTSHEAD,easySkills.HOLDBREATH10,easySkills.DIVESBOTTOM,easySkills.BACKFLOAT,easySkills.ALONE5,easySkills.ACCROSSPOOL,easySkills.HEADDIVE]
+      skills:[easySkills.FLOATS,easySkills.BACKSTROKE,easySkills.JUMP,easySkills.PUTSHEAD,easySkills.HOLDBREATH10,easySkills.DIVESBOTTOM,easySkills.BACKFLOAT,easySkills.ALONE5,easySkills.ACCROSSPOOL,easySkills.HEADDIVE]
     },
     {
       name: 'Dastan',
@@ -136,9 +136,6 @@ export class BoardComponent implements OnInit {
       img: imageList.SHARK,
       skills:[hardskills.BACKSTROKE40,hardskills.BREASTSTROKE40,hardskills.FREESTYLE35,hardskills.BUTTERFLY,hardskills.BUTTERFLYUNDERWATER,hardskills.UNDERWATER10]
     },
-
-    //aqamdee 
-
     {
       name: 'Isaac',
       age: 6,
@@ -161,7 +158,7 @@ export class BoardComponent implements OnInit {
       about: "Likes to swim backstroke",
       gender: 'girl',
       img: imageList.STAFIL,
-      skills:[easySkills.FLOATS,easySkills.JUMP,easySkills.PUTSHEAD,easySkills.BACKFLOAT,easySkills.ALONE5]
+      skills:[easySkills.FLOATS,easySkills.JUMP,easySkills.PUTSHEAD,easySkills.BACKFLOAT,easySkills.ALONE5,easySkills.HOLDBREATH10,easySkills.ACCROSSPOOL]
     },
     {
       name: 'Emma',
@@ -169,7 +166,7 @@ export class BoardComponent implements OnInit {
       about: "Likes jumping in the pool",
       gender: 'girl',
       img: imageList.PINKFISH,
-      skills:[easySkills.FLOATS,easySkills.JUMP,easySkills.PUTSHEAD,easySkills.HOLDBREATH10,easySkills.BACKFLOAT,easySkills.ALONE5,easySkills.DIVESBOTTOM]
+      skills:[easySkills.FLOATS,easySkills.HEADDIVE,easySkills.BACKSTROKE,easySkills.JUMP,easySkills.PUTSHEAD,easySkills.HOLDBREATH10,easySkills.BACKFLOAT,easySkills.ALONE5,easySkills.DIVESBOTTOM]
     },
     {
       name: 'Eleonora',
@@ -201,7 +198,7 @@ export class BoardComponent implements OnInit {
       about: "Likes spending time in the pool.",
       gender: 'girl',
       img: imageList.PINKFISH2,
-      skills:[easySkills.FLOATS,easySkills.PUTSHEAD,easySkills.ALONE5,easySkills.BACKFLOAT,easySkills.JUMP,easySkills.HOLDBREATH10,easySkills.HEADDIVE]
+      skills:[easySkills.FLOATS,easySkills.ACCROSSPOOL,easySkills.BACKSTROKE,easySkills.DIVESBOTTOM,easySkills.PUTSHEAD,easySkills.ALONE5,easySkills.BACKFLOAT,easySkills.JUMP,easySkills.HOLDBREATH10,easySkills.HEADDIVE]
     },
     {
       name: 'Holden',
@@ -209,7 +206,7 @@ export class BoardComponent implements OnInit {
       about: "Likes spreading on the water",
       gender: 'boy',
       img: imageList.GREENFISH,
-      skills:[middleSkills.KICKS,middleSkills.BREASTKICK,middleSkills.FREESTYLE,middleSkills.HEADDIVE,middleSkills.BACKSTROKE,middleSkills.BREASTSTROKE]
+      skills:[middleSkills.KICKS,middleSkills.HOLD25,middleSkills.BREASTKICK,middleSkills.FREESTYLE,middleSkills.HEADDIVE,middleSkills.BACKSTROKE,middleSkills.BREASTSTROKE]
     },
     {
       name: 'Jack',
@@ -217,7 +214,7 @@ export class BoardComponent implements OnInit {
       about: "Very attentive",
       gender: 'boy',
       img: imageList.WHALE,
-      skills:[middleSkills.BACKSTROKE,middleSkills.BREASTKICK,middleSkills.BREASTSTROKE,middleSkills.KICKS,middleSkills.UNDERWATER7,middleSkills.HOLD25]
+      skills:[middleSkills.BACKSTROKE,middleSkills.BREASTKICK,middleSkills.BREASTSTROKE,middleSkills.KICKS,middleSkills.UNDERWATER7,middleSkills.HOLD25,middleSkills.UNDERWATER7,middleSkills.FREESTYLE]
     },
     {
       name: 'Ernie',
@@ -233,7 +230,7 @@ export class BoardComponent implements OnInit {
       about: "likes to swim freestyle",
       gender: 'boy',
       img: imageList.SEASTARYELLOW,
-      skills:[easySkills.FLOATS,easySkills.JUMP,easySkills.PUTSHEAD,easySkills.HOLDBREATH10,easySkills.HEADDIVE,easySkills.DIVESBOTTOM,easySkills.BACKFLOAT]
+      skills:[easySkills.FLOATS,easySkills.JUMP,easySkills.PUTSHEAD,easySkills.HOLDBREATH10,easySkills.HEADDIVE,easySkills.DIVESBOTTOM,easySkills.BACKFLOAT,easySkills.ALONE5]
     },
     {
       name: 'Evren',
@@ -273,7 +270,7 @@ export class BoardComponent implements OnInit {
       about: "likes to get toys out of the water",
       gender: 'boy',
       img: imageList.CRAB2,
-      skills:[easySkills.FLOATS,easySkills.PUTSHEAD,easySkills.ALONE5,easySkills.HOLDBREATH10,easySkills.DIVESBOTTOM]
+      skills:[easySkills.FLOATS,easySkills.PUTSHEAD,easySkills.ALONE5,easySkills.HOLDBREATH10,easySkills.DIVESBOTTOM,easySkills.JUMP]
     },
     {
       name: 'Vihaan',
@@ -281,7 +278,7 @@ export class BoardComponent implements OnInit {
       about: "Likes doing Breaststroke",
       gender: 'boy',
       img: imageList.REDFISH,
-      skills:[middleSkills.BACKSTROKE,middleSkills.BREASTKICK,middleSkills.BREASTSTROKE,middleSkills.FREESTYLE,middleSkills.HEADDIVE,middleSkills.KICKS]
+      skills:[middleSkills.BACKSTROKE,middleSkills.BREASTKICK,middleSkills.BREASTSTROKE,middleSkills.FREESTYLE,middleSkills.HEADDIVE,middleSkills.KICKS,middleSkills.UNDERWATER7,middleSkills.HOLD25]
     },
     {
       name: 'Ben',
@@ -305,7 +302,7 @@ export class BoardComponent implements OnInit {
       about: "Likes jumping in the pool",
       gender: 'girl',
       img: imageList.SEASTAR,
-      skills:[middleSkills.BACKSTROKE,middleSkills.BREASTKICK,middleSkills.FREESTYLE,middleSkills.HEADDIVE,middleSkills.KICKS,middleSkills.HOLD25,middleSkills.BREASTSTROKE]
+      skills:[middleSkills.BACKSTROKE,middleSkills.BREASTKICK,middleSkills.FREESTYLE,middleSkills.HEADDIVE,middleSkills.KICKS,middleSkills.HOLD25,middleSkills.BREASTSTROKE,middleSkills.UNDERWATER7]
     },
     {
       name: 'Evelyn',
@@ -313,7 +310,7 @@ export class BoardComponent implements OnInit {
       about: "Can swim Butterfly without fins.",
       gender: 'girl',
       img: imageList.GRAY,
-      skills:[middleSkills.BACKSTROKE,middleSkills.BREASTKICK,middleSkills.BREASTSTROKE,middleSkills.FREESTYLE,middleSkills.HEADDIVE,middleSkills.UNDERWATER7,middleSkills.KICKS,middleSkills.LAP40,middleSkills.HOLD25]
+      skills:[middleSkills.BACKSTROKE,middleSkills.BREASTKICK,middleSkills.BREASTSTROKE,middleSkills.FREESTYLE,middleSkills.HEADDIVE,middleSkills.UNDERWATER7,middleSkills.KICKS,middleSkills.LAP40,middleSkills.HOLD25,middleSkills.FLIPTURN]
     },
     {
       name: 'Addy',
@@ -337,7 +334,7 @@ export class BoardComponent implements OnInit {
       about: "Got 4 stars in 4 lessons",
       gender: 'boy',
       img: imageList.YELLOWCRAB,
-      skills:[middleSkills.BREASTKICK,middleSkills.BREASTSTROKE,middleSkills.KICKS,middleSkills.HOLD25,middleSkills.FREESTYLE,middleSkills.HOLD25]
+      skills:[middleSkills.BREASTKICK,middleSkills.BREASTSTROKE,middleSkills.KICKS,middleSkills.HOLD25,middleSkills.FREESTYLE,middleSkills.HOLD25,middleSkills.BACKSTROKE,middleSkills.UNDERWATER7]
     },
     {
       name: 'Jonah',
