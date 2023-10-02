@@ -14,13 +14,13 @@
 
 .cards {
     display: grid;
-    grid-template-columns: 350px 350px;
+    grid-template-columns: 350px 350px 350px;
     gap: 30px;
 }
 
 .info {
     position: relative;
-    width: 730px;
+    width: 1100px;
   }
 
 @media only screen and (max-width: 600px) {
