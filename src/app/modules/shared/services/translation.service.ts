@@ -16,7 +16,7 @@ export class TranslationService {
   public translations: any = {};
 
   constructor() {
-    this.langSrc = new BehaviorSubject(localStorage.getItem('lang') || 'ge');
+    this.langSrc = new BehaviorSubject(localStorage.getItem('lang') || 'geo');
     this.lang = this.langSrc.asObservable();
     this.loadTranslations();
   }
@@ -31,7 +31,7 @@ export class TranslationService {
   }
 
   get currentLang() {
-    return localStorage.getItem('lang') || 'ge'
+    return localStorage.getItem('lang') || 'geo'
   }
 
   setLang(lang: string) {

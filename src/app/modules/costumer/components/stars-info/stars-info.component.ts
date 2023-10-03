@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { TranslationService } from 'src/app/modules/shared/services/translation.service';
+import { BaseComponent } from 'src/app/modules/shared/utils/base.component';
 import { easySkills,middleSkills,hardskills } from 'src/assets/ENUMS/enums';
 
 @Component({
@@ -6,7 +8,10 @@ import { easySkills,middleSkills,hardskills } from 'src/assets/ENUMS/enums';
   templateUrl: './stars-info.component.html',
   styleUrls: ['./stars-info.component.scss']
 })
-export class StarsInfoComponent {
+export class StarsInfoComponent extends BaseComponent{
+  constructor(_tr:TranslationService){
+    super(_tr)
+  }
   easySkills = [
     easySkills.JUMP,
     easySkills.PUTSHEAD,

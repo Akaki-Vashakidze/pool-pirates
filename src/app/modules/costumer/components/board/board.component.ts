@@ -7,6 +7,8 @@ import { imageList, easySkills, middleSkills,hardskills } from 'src/assets/ENUMS
   styleUrls: ['./board.component.scss']
 })
 export class BoardComponent implements OnInit {
+
+
   kidsArray = [
     {
       name: 'Hazel',
