@@ -225,7 +225,7 @@ const PageTranslations = [
     translations: {
       eng: "Can do Freestyle, Butterfly and Backstroke kicking with kickboard",
       geo: "აკეთებს თავისუფალი სტილის, ბატერფლაის და გულაღმა ცურვის ფეხებს",
-      rus: "Плавает на спине"
+      rus: "Умеет делать ноги вольным стилем, баттерфляем и на спине на доске."
     }
   },
   {
@@ -241,7 +241,7 @@ const PageTranslations = [
     translations: {
       eng: "Holds breath more than 20 seconds",
       geo: "შეუძლია სუნთქვის შეკავება 20 წამით",
-      rus: "Плавает на спине"
+      rus: "Задерживает дыхание более чем на 20 секунд."
     }
   },
   {
@@ -249,7 +249,7 @@ const PageTranslations = [
     translations: {
       eng: "Swims Freestyle",
       geo: "ცურავს თავისუფალ სტილს(კროლს)",
-      rus: "Плавает на спине"
+      rus: "Плавание вольным стилем"
     }
   },
   {
@@ -257,7 +257,7 @@ const PageTranslations = [
     translations: {
       eng: "Can do a flip turn underwater",
       geo: "აკეთებს ბრუნს(სალტოს) წყლის ქვეშ",
-      rus: "Плавает на спине"
+      rus: "Может сделать переворот под водой"
     }
   },
   {
@@ -265,7 +265,7 @@ const PageTranslations = [
     translations: {
       eng: "Can do breaststroke kicks",
       geo: "აკეთებს ბრასის ფეხებს",
-      rus: "Плавает на спине"
+      rus: "Умею делать ноги брассом"
     }
   },
   {
@@ -273,7 +273,7 @@ const PageTranslations = [
     translations: {
       eng: "Swims Breaststroke",
       geo: "ცურავს ბრასს",
-      rus: "Плавает на спине"
+      rus: "Плавает брассом"
     }
   },
   {
@@ -281,7 +281,7 @@ const PageTranslations = [
     translations: {
       eng: "Swims one lap(25m) less than 40 seconds(any stroke)",
       geo: "ცურავს 25 მეტრს 40 წამში",
-      rus: "Плавает на спине"
+      rus: "Проплывает один бассейн(25 м) менее чем за 40 секунд (любой стиль)"
     }
   },
   {
@@ -289,7 +289,7 @@ const PageTranslations = [
     translations: {
       eng: "Can swim underwater 7 meters(25 feet)",
       geo: "შეუძლია წყალქვეშ გაცუროს 7 მეტრი",
-      rus: "Плавает на спине"
+      rus: "Может плавать под водой 7 метров."
     }
   },
 
@@ -299,7 +299,7 @@ const PageTranslations = [
     translations: {
       eng: "Swims Backstroke(25m) less than 35 seconds",
       geo: "ცურავს 25 მეტრ გულაღმა ცურვას 35 წამზე ნაკლებში",
-      rus: "Плавает на спине"
+      rus: "Плавает на спине(25 м) менее 35 секунд."
     }
   },
   {
@@ -307,7 +307,7 @@ const PageTranslations = [
     translations: {
       eng: "Swims Breaststroke(25m) less than 35 seconds",
       geo: "ცურავს 25 მეტრ ბრასს 35 წამზე ნაკლებში",
-      rus: "Плавает на спине"
+      rus: "Плавает брассом(25 м) менее 35 секунд."
     }
   },
   {
@@ -315,7 +315,7 @@ const PageTranslations = [
     translations: {
       eng: "Swims Butterfly",
       geo: "ცურავს ბატერფლაის",
-      rus: "Плавает на спине"
+      rus: "Плавает дельфин"
     }
   },
   {
@@ -323,7 +323,7 @@ const PageTranslations = [
     translations: {
       eng: "Can do underwater Butterfly kicks",
       geo: "შეუძლია გააკეთოს წყალქვეშა ბატერფლაის გასვლა",
-      rus: "Плавает на спине"
+      rus: "Умеет ноги баттерфляем под водой."
     }
   },
   {
@@ -331,7 +331,7 @@ const PageTranslations = [
     translations: {
       eng: "Swims Freestyle(25m) less than 32 seconds",
       geo: "ცურავს 25 მეტრ თავისუფალ სტილს 32 წამზე ნაკლებში",
-      rus: "Плавает на спине"
+      rus: "Плавает вольным стилем(25 м) менее 32 секунд."
     }
   },
   {
@@ -339,7 +339,7 @@ const PageTranslations = [
     translations: {
       eng: "Can do freestyle flip turn",
       geo: "შეუძლია გააკეთოს თავისუფალი სტილის ბრუნი(სალტო)",
-      rus: "Плавает на спине"
+      rus: "Умею делать поворот вольным стилем."
     }
   },
   {
@@ -355,7 +355,7 @@ const PageTranslations = [
     translations: {
       eng: "Holds breath more than 30 seconds",
       geo: "შეუძლია სუნთქვის შეკავება 30 წამით",
-      rus: "Плавает на спине"
+      rus: "Задерживает дыхание более чем на 30 секунд."
     }
   },
   {
@@ -371,7 +371,7 @@ const PageTranslations = [
     translations: {
       eng: "Can swim underwater 10 meters(33 feet)",
       geo: "შეუძლია წყალქვეშ გაცუროს 10 მეტრი",
-      rus: "Плавает на спине"
+      rus: "Плавает 8 кругов (200 м) без тормоза."
     }
   },
 

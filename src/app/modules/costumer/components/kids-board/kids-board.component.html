@@ -11,13 +11,13 @@
             </div>
             <div [ngStyle]="{'background-color':backgroundColor}" class="right">
                 <div *ngIf="age > 9" class="fontSizeSmall list">
-                    <div *ngFor="let skill of skills" class="skill"><div><img width="23px" src="../assets/images/pearl.png" alt=""></div><p class="swimDesc">{{skill}}</p></div>
+                    <div *ngFor="let skill of skills" class="skill"><div><img width="23px" src="../assets/images/pearl.png" alt=""></div><p class="swimDesc">{{skill | translate : lang}}</p></div>
                 </div>
                 <div *ngIf="age > 6 && age < 10" class="fontSizeSmall list">
-                    <div *ngFor="let skill of skills" class="skill"><div><img width="19px" src="../assets/images/shell10.png" alt=""></div><p class="swimDesc">{{skill}}</p></div>
+                    <div *ngFor="let skill of skills" class="skill"><div><img width="19px" src="../assets/images/shell10.png" alt=""></div><p class="swimDesc">{{skill | translate : lang}}</p></div>
                 </div>
                 <div *ngIf="age <= 6" class="fontSizeSmall listForKids">
-                    <div *ngFor="let skill of skills" class="skill"><div><img width="20px" src="../assets/images/seastar.png" alt=""></div><p class="swimDesc">{{skill}}</p></div>
+                    <div *ngFor="let skill of skills" class="skill"><div><img width="20px" src="../assets/images/seastar.png" alt=""></div><p class="swimDesc">{{skill | translate : lang}}</p></div>
                 </div>
             </div>
         </div>
