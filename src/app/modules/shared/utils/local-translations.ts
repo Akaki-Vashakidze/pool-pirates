@@ -363,7 +363,7 @@ const PageTranslations = [
     translations: {
       eng: "Can do 8 laps(200m) without brake",
       geo: "შეუძლია გაცუროს 200 მეტრი შეუსვენებლად",
-      rus: "Плавает на спине"
+      rus: "Плавает 8 кругов (200 м) без отдых"
     }
   },
   {
@@ -371,7 +371,7 @@ const PageTranslations = [
     translations: {
       eng: "Can swim underwater 10 meters(33 feet)",
       geo: "შეუძლია წყალქვეშ გაცუროს 10 მეტრი",
-      rus: "Плавает 8 кругов (200 м) без тормоза."
+      rus: "Может плавать под водой 10 метров"
     }
   },
 
