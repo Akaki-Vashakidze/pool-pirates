@@ -1,4 +1,4 @@
-import { easySkills } from "src/assets/ENUMS/enums";
+import { easySkills, hardskills, middleSkills } from "src/assets/ENUMS/enums";
 
 const PageTranslations = [
   {
@@ -218,6 +218,164 @@ const PageTranslations = [
       rus: "прыгает в воду с головой"
     }
   },
+
+
+  {
+    keyword: middleSkills.KICKS,
+    translations: {
+      eng: "Can do Freestyle, Butterfly and Backstroke kicking with kickboard",
+      geo: "აკეთებს თავისუფალი სტილის, ბატერფლაის და გულაღმა ცურვის ფეხებს",
+      rus: "Плавает на спине"
+    }
+  },
+  {
+    keyword: middleSkills.HEADDIVE,
+    translations: {
+      eng: "Dives in the pool",
+      geo: "თავით ხტება წყალში",
+      rus: "прыгает в воду с головой"
+    }
+  },
+  {
+    keyword: middleSkills.HOLD25,
+    translations: {
+      eng: "Holds breath more than 20 seconds",
+      geo: "შეუძლია სუნთქვის შეკავება 20 წამით",
+      rus: "Плавает на спине"
+    }
+  },
+  {
+    keyword: middleSkills.FREESTYLE,
+    translations: {
+      eng: "Swims Freestyle",
+      geo: "ცურავს თავისუფალ სტილს(კროლს)",
+      rus: "Плавает на спине"
+    }
+  },
+  {
+    keyword: middleSkills.FLIPTURN,
+    translations: {
+      eng: "Can do a flip turn underwater",
+      geo: "აკეთებს ბრუნს(სალტოს) წყლის ქვეშ",
+      rus: "Плавает на спине"
+    }
+  },
+  {
+    keyword: middleSkills.BREASTKICK,
+    translations: {
+      eng: "Can do breaststroke kicks",
+      geo: "აკეთებს ბრასის ფეხებს",
+      rus: "Плавает на спине"
+    }
+  },
+  {
+    keyword: middleSkills.BREASTSTROKE,
+    translations: {
+      eng: "Swims Breaststroke",
+      geo: "ცურავს ბრასს",
+      rus: "Плавает на спине"
+    }
+  },
+  {
+    keyword: middleSkills.LAP40,
+    translations: {
+      eng: "Swims one lap(25m) less than 40 seconds(any stroke)",
+      geo: "ცურავს 25 მეტრს 40 წამში",
+      rus: "Плавает на спине"
+    }
+  },
+  {
+    keyword: middleSkills.UNDERWATER7,
+    translations: {
+      eng: "Can swim underwater 7 meters(25 feet)",
+      geo: "შეუძლია წყალქვეშ გაცუროს 7 მეტრი",
+      rus: "Плавает на спине"
+    }
+  },
+
+
+  {
+    keyword: hardskills.BACKSTROKE40,
+    translations: {
+      eng: "Swims Backstroke(25m) less than 35 seconds",
+      geo: "ცურავს 25 მეტრ გულაღმა ცურვას 35 წამზე ნაკლებში",
+      rus: "Плавает на спине"
+    }
+  },
+  {
+    keyword: hardskills.BREASTSTROKE40,
+    translations: {
+      eng: "Swims Breaststroke(25m) less than 35 seconds",
+      geo: "ცურავს 25 მეტრ ბრასს 35 წამზე ნაკლებში",
+      rus: "Плавает на спине"
+    }
+  },
+  {
+    keyword: hardskills.BUTTERFLY,
+    translations: {
+      eng: "Swims Butterfly",
+      geo: "ცურავს ბატერფლაის",
+      rus: "Плавает на спине"
+    }
+  },
+  {
+    keyword: hardskills.BUTTERFLYUNDERWATER,
+    translations: {
+      eng: "Can do underwater Butterfly kicks",
+      geo: "შეუძლია გააკეთოს წყალქვეშა ბატერფლაის გასვლა",
+      rus: "Плавает на спине"
+    }
+  },
+  {
+    keyword: hardskills.FREESTYLE35,
+    translations: {
+      eng: "Swims Freestyle(25m) less than 32 seconds",
+      geo: "ცურავს 25 მეტრ თავისუფალ სტილს 32 წამზე ნაკლებში",
+      rus: "Плавает на спине"
+    }
+  },
+  {
+    keyword: hardskills.FREETURN,
+    translations: {
+      eng: "Can do freestyle flip turn",
+      geo: "შეუძლია გააკეთოს თავისუფალი სტილის ბრუნი(სალტო)",
+      rus: "Плавает на спине"
+    }
+  },
+  {
+    keyword: hardskills.HEADDIVE,
+    translations: {
+      eng: "Dives in the pool",
+      geo: "თავით ხტება წყალში",
+      rus: "прыгает в воду с головой"
+    }
+  },
+  {
+    keyword: hardskills.HOLD40,
+    translations: {
+      eng: "Holds breath more than 30 seconds",
+      geo: "შეუძლია სუნთქვის შეკავება 30 წამით",
+      rus: "Плавает на спине"
+    }
+  },
+  {
+    keyword: hardskills.LAPS8,
+    translations: {
+      eng: "Can do 8 laps(200m) without brake",
+      geo: "შეუძლია გაცუროს 200 მეტრი შეუსვენებლად",
+      rus: "Плавает на спине"
+    }
+  },
+  {
+    keyword: hardskills.UNDERWATER10,
+    translations: {
+      eng: "Can swim underwater 10 meters(33 feet)",
+      geo: "შეუძლია წყალქვეშ გაცუროს 10 მეტრი",
+      rus: "Плавает на спине"
+    }
+  },
+
+
 ];
 
 

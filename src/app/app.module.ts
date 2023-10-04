@@ -10,12 +10,12 @@ import { CostumerModule } from './modules/costumer/costumer.module';
 @NgModule({
   declarations: [
     AppComponent,
-    TranslatePipe
   ],
   imports: [
     CommonModule,
     BrowserModule,
     AppRoutingModule,
+    CostumerModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -28,7 +28,9 @@ import { TranslatePipe } from "../shared/pipes/translate.pipe";
     CommonModule,
     CostumerRoutinModule
   ],
-  exports: [],
+  exports: [
+    TranslatePipe
+  ],
   providers: [],
 
 })
