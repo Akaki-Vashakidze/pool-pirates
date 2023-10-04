@@ -10,6 +10,31 @@
     padding: 0;
     background-color: beige;
 }
+
+.expl {
+    font-size: 10px;
+    color: gray;
+    cursor: pointer;
+    width: 80px;
+    position: relative;
+    left: 10px;
+}
+
+.updated {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 12px;
+    color: rgb(150, 149, 149);
+}
+
+.right {
+    width: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
    
 .lang{
     cursor: pointer;

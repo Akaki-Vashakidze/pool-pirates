@@ -32,11 +32,11 @@ export class AppComponent extends BaseComponent {
       id:1
     },
     {
-      name:'schedule',
+      name:'Schedule',
       id:2
     },
     {
-      name:'about',
+      name:'About',
       id:3
     }
   ]

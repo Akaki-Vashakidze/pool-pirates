@@ -3,7 +3,7 @@
         <app-stars-info></app-stars-info>
     </div>
     <div class="search">
-        <input (keyup)="findSwimmer($event)" placeholder="Search" class="searchInput" type="text"
+        <input (keyup)="findSwimmer($event)" [placeholder]="'Search' | translate : lang" class="searchInput" type="text"
             name="search">
     </div>
     <div class="cards">

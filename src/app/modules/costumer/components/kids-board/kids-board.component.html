@@ -6,7 +6,7 @@
                 <div>
                     <h2>{{KidName}}</h2>
                     <img width="100px" [src]="'../assets/images/' + imgName" alt="">
-                    <h3 >{{age + ' years'}}</h3>
+                    <h3 >{{age + ' '}}{{'YEARS' | translate : lang}}</h3>
                 </div>
             </div>
             <div [ngStyle]="{'background-color':backgroundColor}" class="right">
@@ -26,9 +26,9 @@
         <div class="rightCardContent">
             <div class="rightContainer">
                 <div class="header1">
-                    <h3 class="grades" *ngIf="age > 9">{{'Pearls ' + stars + '/10'}}</h3>
-                    <h3 class="grades" *ngIf="age > 6 && age < 10">{{'Sea Shells ' + stars + '/10'}}</h3>
-                    <h3 class="grades" *ngIf="age <= 6">{{'Starfish ' + stars + '/10'}}</h3>
+                    <h3 class="grades" *ngIf="age > 9">{{'PEARLS' | translate : lang}}{{' ' + stars + '/10'}}</h3>
+                    <h3 class="grades" *ngIf="age > 6 && age < 10">{{'SEASHELLS' | translate : lang}}{{' ' + stars + '/10'}}</h3>
+                    <h3 class="grades" *ngIf="age <= 6">{{'STARFISH' | translate : lang}}{{' ' + stars + '/10'}}</h3>
                 </div>
                 <div *ngIf="age > 9" class="stars">
                     <div *ngFor="let skill of skills"><img width="33px" src="../assets/images/pearl.png" alt=""></div>
@@ -45,6 +45,6 @@
                 <div class="kidInfo">{{kidInfo}}</div>
             </div>
         </div>
-        <div class="moreInfo">Click to see more info...</div>
+        <div class="moreInfo">{{'MORE.INFO' | translate : lang}}</div>
     </div>
 </div>

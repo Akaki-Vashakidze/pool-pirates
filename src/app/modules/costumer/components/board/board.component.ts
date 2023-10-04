@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { TranslationService } from 'src/app/modules/shared/services/translation.service';
+import { BaseComponent } from 'src/app/modules/shared/utils/base.component';
 import { imageList, easySkills, middleSkills,hardskills } from 'src/assets/ENUMS/enums';
 
 @Component({
@@ -6,8 +8,10 @@ import { imageList, easySkills, middleSkills,hardskills } from 'src/assets/ENUMS
   templateUrl: './board.component.html',
   styleUrls: ['./board.component.scss']
 })
-export class BoardComponent implements OnInit {
-
+export class BoardComponent extends BaseComponent implements OnInit {
+  constructor(_tr:TranslationService) {
+    super(_tr)
+  }
 
   kidsArray = [
     {
@@ -141,7 +145,7 @@ export class BoardComponent implements OnInit {
     {
       name: 'Isaac',
       age: 6,
-      about: "Likes swmming with fins",
+      about: "Likes swimming with fins",
       gender: 'boy',
       img: imageList.GREENFISH4,
       skills:[easySkills.FLOATS,easySkills.BACKSTROKE,easySkills.JUMP,easySkills.PUTSHEAD,easySkills.HOLDBREATH10,easySkills.DIVESBOTTOM,easySkills.BACKFLOAT,easySkills.ALONE5,easySkills.ACCROSSPOOL]

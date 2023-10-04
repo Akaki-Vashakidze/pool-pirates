@@ -1,11 +1,13 @@
 <div class="header">
     <div class="left"></div>
     <div class="middle">
-        <span class="headerTabs" *ngFor="let item of header">{{item.name}}</span>
+        <span class="headerTabs" *ngFor="let item of header">{{item.name | translate : lang}}</span>
     </div>
     <div class="right">
         <div (click)="changeLang(lang)" class="lang">{{lang}}</div>
+        <div (click)="changeLang(lang)" class="expl">{{'CHANGE.LANG' | translate : lang}}</div>
     </div>
+    <div class="updated">{{'LAST.UPDATE' | translate : lang}} - 6 october 2023</div>
 </div>
 
 <router-outlet></router-outlet>

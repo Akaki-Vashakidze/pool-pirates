@@ -1,4 +1,6 @@
 import { Component, Input, OnInit, ViewChild } from '@angular/core';
+import { TranslationService } from 'src/app/modules/shared/services/translation.service';
+import { BaseComponent } from 'src/app/modules/shared/utils/base.component';
 
 @Component({
   selector: 'app-kids-board',
@@ -6,7 +8,7 @@ import { Component, Input, OnInit, ViewChild } from '@angular/core';
   styleUrls: ['./kids-board.component.scss']
 })
 
-export class KidsBoardComponent implements OnInit{
+export class KidsBoardComponent extends BaseComponent implements OnInit{
   @Input() KidName!: string;
   @Input() age!: number;
   @Input() kidInfo!: string;
@@ -20,7 +22,9 @@ export class KidsBoardComponent implements OnInit{
   starsArray!:any;
   starsOffArray!:any;
   addHoverClassToLeft:boolean = false;
-  constructor() { }
+  constructor(_tr:TranslationService) {
+    super(_tr)
+   }
 
   ngOnInit(): void {
     this.girlOrBoy == 'boy' ? this.backgroundColor = '#8AAAE5' : this.backgroundColor = '#F7C5CC';

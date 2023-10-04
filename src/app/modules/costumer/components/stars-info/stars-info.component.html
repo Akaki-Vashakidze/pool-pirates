@@ -2,7 +2,7 @@
     <!-- <h2>Requirements:</h2> -->
     <div class="cont2">
         <div class="under5">
-            <h3>4-6 years old kids</h3>
+            <h3>4-6 {{'YEARS.OLD' | translate : lang}}</h3>
             <h4>{{'CAN.STARS' | translate : lang}}</h4>
             <div class="rulesContainer">
                 <div *ngFor="let rule of easySkills" class="rules kidsRules">
@@ -13,8 +13,8 @@
             </div>
         </div>
         <div class="sevenTo9">
-            <h3>7-9 years old kids</h3>
-            <h4>Can collect Sea Shells if he/she:</h4>
+            <h3>7-9 {{'YEARS.OLD' | translate : lang}}</h3>
+            <h4>{{'CAN.SEASHELLS'| translate : lang}}</h4>
             <div class="rulesContainer">
                 <div *ngFor="let rule of middleSkills" class="rules">
                     <!-- <div><app-star size="12px"></app-star></div> -->
@@ -24,8 +24,8 @@
             </div>
         </div>
         <div class="over10">
-            <h3>10 years and older kids</h3>
-            <h4>Can collect Pearls if he/she:</h4>
+            <h3>10 {{'YEARS.OLDER' | translate : lang}}</h3>
+            <h4>{{'CAN.SEAPEARLS'| translate : lang}}</h4>
             <div class="rulesContainer">
                 <div *ngFor="let rule of highSkills" class="rules">
                     <div><img width="34px" src="../assets/images/pearl.png" alt=""></div>
