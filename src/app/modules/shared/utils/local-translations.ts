@@ -1,3 +1,5 @@
+import { easySkills } from "src/assets/ENUMS/enums";
+
 const PageTranslations = [
   {
     keyword: "ADMIN.HEADER.TITLE",
@@ -132,6 +134,88 @@ const PageTranslations = [
       eng: "Starfish",
       geo: "ზღვის ვარსკვლავი",
       rus: "морская звезда"
+    }
+  },
+
+  {
+    keyword: easySkills.ACCROSSPOOL,
+    translations: {
+      eng: "Swims across the pool",
+      geo: "ცურავს ერთ აუზს შეუსვენებლად",
+      rus: "плавает один бассейн без отдыха"
+    }
+  },
+
+  {
+    keyword: easySkills.DIVESBOTTOM,
+    translations: {
+      eng: "Swims to the bottom(1.5m)",
+      geo: "ყვინთავს ფსკერამდე(1.5მ)",
+      rus: "ныряет на дно (1,5м)"
+    }
+  },
+  {
+    keyword: easySkills.HOLDBREATH10,
+    translations: {
+      eng: "Holds breath more than 10 seconds",
+      geo: "იკავებს სუნთქვას 10 წამით",
+      rus: "Задерживает дыхание на 10 секунд"
+    }
+  },
+  {
+    keyword: easySkills.JUMP,
+    translations: {
+      eng: "Jumps in the water",
+      geo: "ხტება აუზში",
+      rus: "Прыгает в воду"
+    }
+  },
+  {
+    keyword: easySkills.PUTSHEAD,
+    translations: {
+      eng: "Puts head underwater",
+      geo: "შეუძლია ყვინთვა",
+      rus: "может нырять"
+    }
+  },
+  {
+    keyword: easySkills.FLOATS,
+    translations: {
+      eng: "Can float for 10 seconds",
+      geo: "ტივტივებს 10 წამის განმავლობაში",
+      rus: "Может плавать в течение 10 секунд."
+    }
+  },
+  {
+    keyword: easySkills.BACKFLOAT,
+    translations: {
+      eng: "Lies on back and floats",
+      geo: "ზურგზე დაწოლა და ტივტივი",
+      rus: "Лежит на спине и плавает"
+    }
+  },
+  {
+    keyword: easySkills.ALONE5,
+    translations: {
+      eng: "Swims 5-7 meters alone",
+      geo: "ცურავს 5-7 მეტრს დამოუკიდებლად",
+      rus: "Плавает 5-7 метров в одиночку."
+    }
+  },
+  {
+    keyword: easySkills.BACKSTROKE,
+    translations: {
+      eng: "Swims Backstroke",
+      geo: "შეიძლია გულაღმა ცურვა",
+      rus: "Плавает на спине"
+    }
+  },
+  {
+    keyword: easySkills.HEADDIVE,
+    translations: {
+      eng: "Dives in the pool",
+      geo: "თავით ხტება წყალში",
+      rus: "прыгает в воду с головой"
     }
   },
 ];
