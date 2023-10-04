@@ -27,6 +27,7 @@ export class KidsBoardComponent extends BaseComponent implements OnInit{
    }
 
   ngOnInit(): void {
+    console.log(this.stars)
     this.girlOrBoy == 'boy' ? this.backgroundColor = '#8AAAE5' : this.backgroundColor = '#F7C5CC';
     this.starsArray = Array(this.stars)
     this.starsOffArray = Array(10 - this.stars)

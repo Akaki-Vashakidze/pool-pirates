@@ -2,7 +2,7 @@
   position: relative;
   top: 0;
   left: 0;
-  height: 250px;
+  height: 300px;
   width: 350px;
   background-color: #e3e9f1;
   border-radius: 10px;
@@ -16,10 +16,14 @@
   grid-template-columns: 130px 200px;
 }
 
+.level{
+  margin-top: 15px;
+}
+
 .left {
   position: relative;
   width: 150px;
-  height: 250px;
+  height: 300px;
   background-color:  #8AAAE5;
   //#EA738D #F7C5CC pink 
   border-bottom-left-radius: 10px;
@@ -68,9 +72,9 @@
 
 .right {
   position: relative;
-  top: -216px;
+  top: -285px;
   width: 200px;
-  height: 250px;
+  height: 300px;
   background-color: #8AAAE5;
   left: 150px;
   z-index: 2;
@@ -80,7 +84,7 @@
 
 .list {
   position: relative;
-  padding: 20px 10px;
+  padding: 40px 10px;
 }
 
 .listForKids {
