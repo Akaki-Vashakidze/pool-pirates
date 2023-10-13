@@ -26,6 +26,7 @@ export class AppComponent extends BaseComponent {
     } 
   }
   title = 'kidsSwim';
+  headerIndex : number = 1;
   header = [
     {
       name:'Kids',
@@ -34,12 +35,16 @@ export class AppComponent extends BaseComponent {
     },
     // {
     //   name:'Schedule',
-    //   id:2
+    //   id:3
     // },
     {
       name:'Contact Info',
-      id:3,
+      id:2,
       link:'contact'
     }
   ]
+
+  headerColor(number:number){
+    this.headerIndex = number
+  }
 }
