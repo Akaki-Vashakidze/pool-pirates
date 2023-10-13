@@ -29,15 +29,17 @@ export class AppComponent extends BaseComponent {
   header = [
     {
       name:'Kids',
-      id:1
+      id:1,
+      link:'kids'
     },
+    // {
+    //   name:'Schedule',
+    //   id:2
+    // },
     {
-      name:'Schedule',
-      id:2
-    },
-    {
-      name:'About',
-      id:3
+      name:'Contact Info',
+      id:3,
+      link:'contact'
     }
   ]
 }

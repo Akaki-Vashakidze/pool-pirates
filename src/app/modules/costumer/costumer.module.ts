@@ -10,6 +10,7 @@ import { StarKidsComponent } from "./components/star-kids/star-kids.component";
 import { StarOffKidsComponent } from "./components/star-off-kids/star-off-kids.component";
 import { StarsInfoComponent } from './components/stars-info/stars-info.component';
 import { TranslatePipe } from "../shared/pipes/translate.pipe";
+import { ContactComponent } from './components/contact/contact.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { TranslatePipe } from "../shared/pipes/translate.pipe";
     StarKidsComponent,
     StarOffKidsComponent,
     StarsInfoComponent,
-    TranslatePipe
+    TranslatePipe,
+    ContactComponent
   ],
   imports: [
     CommonModule,

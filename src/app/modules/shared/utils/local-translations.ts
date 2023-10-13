@@ -25,6 +25,30 @@ const PageTranslations = [
     }
   },
   {
+    keyword: "Contact Info",
+    translations: {
+      eng: "Contact Info",
+      geo: "კონტაქტი",
+      rus: "Контакт"
+    }
+  },
+  {
+    keyword: "NUMBER",
+    translations: {
+      eng: "Number:",
+      geo: "ნომერი:",
+      rus: "номер:"
+    }
+  },
+  {
+    keyword: "GMAIL",
+    translations: {
+      eng: "Gmail:",
+      geo: "მეილი:",
+      rus: "почта:"
+    }
+  },
+  {
     keyword: "CAN.SEAPEARLS",
     translations: {
       eng: "Can collect Sea Pearls if he/she:",

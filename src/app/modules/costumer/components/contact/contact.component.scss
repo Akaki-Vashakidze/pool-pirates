@@ -1,0 +1,13 @@
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.info {
+    position: relative;
+    width: 200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 30px;
+}

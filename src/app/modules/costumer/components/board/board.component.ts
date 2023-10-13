@@ -15,6 +15,86 @@ export class BoardComponent extends BaseComponent implements OnInit {
 
   kidsArray = [
     {
+      name: 'გიორგი',
+      age: 11,
+      about: "საყვარელი სტილი - თავისუფალი სტილი",
+      gender: 'boy',
+      img: imageList.PLATE,
+      skills:[hardskills.HEADDIVE,hardskills.FREESTYLE35,hardskills.HOLD40,hardskills.LAPS8,hardskills.UNDERWATER10,hardskills.BREASTSTROKE40]
+    },
+    {
+      name: 'მაშო',
+      age: 8,
+      about: "ცურავს ბრასს ძალიან ლამაზად",
+      gender: 'boy',
+      img: imageList.PINKFISH,
+      skills:[middleSkills.BACKSTROKE,middleSkills.BREASTKICK,middleSkills.BREASTSTROKE,middleSkills.FREESTYLE,middleSkills.HOLD25,middleSkills.HOLD25,middleSkills.KICKS,middleSkills.UNDERWATER7]
+    },
+    {
+      name: 'ნიკოლოზი',
+      age: 13,
+      about: "ახლახანს ისწავლა ტივტივი",
+      gender: 'boy',
+      img: imageList.BLUEMED,
+      skills:[]
+    },
+    {
+      name: 'უტა',
+      age: 6,
+      about: "ცურავს კროლს გვერძე შესუნთქვით",
+      gender: 'boy',
+      img: imageList.CRABINSHELL,
+      skills:[easySkills.ACCROSSPOOL,easySkills.ALONE5,easySkills.BACKFLOAT,easySkills.DIVESBOTTOM,easySkills.FLOATS,easySkills.HOLDBREATH10,easySkills.JUMP,easySkills.PUTSHEAD]
+    },
+    {
+      name: 'თოკო',
+      age: 6,
+      about: "უყვარს წყალში ხტომა",
+      gender: 'boy',
+      img: imageList.BLUEFISH1,
+      skills:[easySkills.ACCROSSPOOL,easySkills.ALONE5,easySkills.DIVESBOTTOM,easySkills.FLOATS,easySkills.HOLDBREATH10,easySkills.JUMP,easySkills.PUTSHEAD]
+    },
+    {
+      name: 'ანდრია',
+      age: 5,
+      about: "უყვარს სათამაშოების ამოყვანა აუზის ფსკერიდან",
+      gender: 'boy',
+      img: imageList.YELLOWCRAB,
+      skills:[easySkills.ALONE5,easySkills.DIVESBOTTOM,easySkills.FLOATS,easySkills.HOLDBREATH10,easySkills.JUMP,easySkills.PUTSHEAD]
+    },
+    {
+      name: 'გეგა',
+      age: 8,
+      about: "საყვარელი სტილი - ბრასი",
+      gender: 'boy',
+      img: imageList.BROWNFISH,
+      skills:[middleSkills.BACKSTROKE,middleSkills.FREESTYLE,middleSkills.BREASTKICK,middleSkills.HOLD25,middleSkills.KICKS,]
+    },
+    {
+      name: 'ლუკა',
+      age: 11,
+      about: "საყვარელი სტილი - ბრასი",
+      gender: 'boy',
+      img: imageList.GREENFISH,
+      skills:[hardskills.BACKSTROKE40,hardskills.HOLD40,hardskills.LAPS8,hardskills.UNDERWATER10,hardskills.BREASTSTROKE40,hardskills.FREESTYLE35]
+    },
+    {
+      name: 'София',
+      age: 8,
+      about: "любит прыгать в воду",
+      gender: 'girl',
+      img: imageList.PINKFISH5,
+      skills:[middleSkills.BACKSTROKE,middleSkills.FLIPTURN,middleSkills.FREESTYLE,middleSkills.KICKS,middleSkills.UNDERWATER7,middleSkills.HEADDIVE,middleSkills.HOLD25]
+    },
+    {
+      name: 'Верия',
+      age: 6,
+      about: "любит брать игрушки из воды",
+      gender: 'girl',
+      img: imageList.PINKFISH5,
+      skills:[easySkills.ALONE5,easySkills.BACKFLOAT,easySkills.BACKSTROKE,easySkills.DIVESBOTTOM,easySkills.FLOATS,easySkills.HOLDBREATH10,easySkills.JUMP,easySkills.PUTSHEAD]
+    },
+    {
       name: 'Hazel',
       age: 9,
       about: "Likes doing bubbles underwater",
