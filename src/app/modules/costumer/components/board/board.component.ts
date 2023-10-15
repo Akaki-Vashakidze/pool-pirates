@@ -60,7 +60,7 @@ export class BoardComponent extends BaseComponent implements OnInit {
       about: "უყვარს წყალში ხტომა",
       gender: 'boy',
       img: imageList.BLUEFISH1,
-      skills:[easySkills.ACCROSSPOOL,easySkills.ALONE5,easySkills.DIVESBOTTOM,easySkills.FLOATS,easySkills.HOLDBREATH10,easySkills.JUMP,easySkills.PUTSHEAD]
+      skills:[easySkills.ACCROSSPOOL,easySkills.ALONE5,easySkills.DIVESBOTTOM,easySkills.FLOATS,easySkills.HOLDBREATH10,easySkills.JUMP,easySkills.PUTSHEAD,easySkills.HEADDIVE]
     },
     {
       name: 'ანდრია',
@@ -68,7 +68,7 @@ export class BoardComponent extends BaseComponent implements OnInit {
       about: "უყვარს სათამაშოების ამოყვანა აუზის ფსკერიდან",
       gender: 'boy',
       img: imageList.YELLOWCRAB,
-      skills:[easySkills.ALONE5,easySkills.DIVESBOTTOM,easySkills.FLOATS,easySkills.HOLDBREATH10,easySkills.JUMP,easySkills.PUTSHEAD]
+      skills:[easySkills.ALONE5,easySkills.DIVESBOTTOM,easySkills.FLOATS,easySkills.HOLDBREATH10,easySkills.JUMP,easySkills.PUTSHEAD,easySkills.BACKFLOAT]
     },
     {
       name: 'გეგა',
