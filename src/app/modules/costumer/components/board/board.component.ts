@@ -15,6 +15,14 @@ export class BoardComponent extends BaseComponent implements OnInit {
 
   kidsArray = [
     {
+      name: 'გიო',
+      age: 5,
+      about: "უყვარს წყალში ხტომა",
+      gender: 'boy',
+      img: imageList.LOBSTER,
+      skills:[easySkills.ACCROSSPOOL,easySkills.ALONE5,easySkills.BACKFLOAT,easySkills.FLOATS,easySkills.HOLDBREATH10,easySkills.JUMP,easySkills.PUTSHEAD,easySkills.DIVESBOTTOM]
+    },
+    {
       name: 'გიორგი',
       age: 11,
       about: "საყვარელი სტილი - თავისუფალი სტილი",

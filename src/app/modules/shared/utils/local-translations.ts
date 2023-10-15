@@ -214,7 +214,7 @@ const PageTranslations = [
     keyword: easySkills.BACKFLOAT,
     translations: {
       eng: "Lies on back and floats",
-      geo: "ზურგზე დაწოლა და ტივტივი",
+      geo: "წვება ზურგზე და ცურავს",
       rus: "Лежит на спине и плавает"
     }
   },
