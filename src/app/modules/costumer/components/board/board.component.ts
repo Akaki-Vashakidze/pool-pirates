@@ -88,11 +88,11 @@ export class BoardComponent extends BaseComponent implements OnInit {
     },
     {
       name: 'София',
-      age: 8,
+      age: 9,
       about: "любит прыгать в воду",
       gender: 'girl',
       img: imageList.PINKFISH5,
-      skills:[middleSkills.BACKSTROKE,middleSkills.FLIPTURN,middleSkills.FREESTYLE,middleSkills.KICKS,middleSkills.UNDERWATER7,middleSkills.HEADDIVE,middleSkills.HOLD25]
+      skills:[middleSkills.BACKSTROKE,middleSkills.FLIPTURN,middleSkills.FREESTYLE,middleSkills.KICKS,middleSkills.UNDERWATER7,middleSkills.HEADDIVE,middleSkills.BREASTKICK,middleSkills.BREASTSTROKE]
     },
     {
       name: 'Верия',
@@ -100,7 +100,7 @@ export class BoardComponent extends BaseComponent implements OnInit {
       about: "любит брать игрушки из воды",
       gender: 'girl',
       img: imageList.PINKFISH5,
-      skills:[easySkills.ALONE5,easySkills.BACKFLOAT,easySkills.BACKSTROKE,easySkills.DIVESBOTTOM,easySkills.FLOATS,easySkills.HOLDBREATH10,easySkills.JUMP,easySkills.PUTSHEAD]
+      skills:[easySkills.ALONE5,easySkills.BACKFLOAT,easySkills.BACKSTROKE,easySkills.DIVESBOTTOM,easySkills.FLOATS,easySkills.HOLDBREATH10,easySkills.JUMP,easySkills.PUTSHEAD,easySkills.ACCROSSPOOL]
     },
     {
       name: 'Hazel',
