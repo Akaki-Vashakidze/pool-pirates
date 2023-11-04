@@ -24,11 +24,11 @@ export class BoardComponent extends BaseComponent implements OnInit {
     },
     {
       name: 'გიორგი',
-      age: 11,
+      age: 9,
       about: "საყვარელი სტილი - თავისუფალი სტილი",
       gender: 'boy',
       img: imageList.PLATE,
-      skills:[hardskills.HEADDIVE,hardskills.FREESTYLE35,hardskills.HOLD40,hardskills.LAPS8,hardskills.UNDERWATER10,hardskills.BREASTSTROKE40]
+      skills:[middleSkills.BACKSTROKE,middleSkills.BREASTKICK,middleSkills.BREASTSTROKE,middleSkills.FREESTYLE,middleSkills.FLIPTURN,middleSkills.HEADDIVE,middleSkills.HOLD25,middleSkills.KICKS,middleSkills.LAP40,middleSkills.UNDERWATER7]
     },
     {
       name: 'მაშო',
@@ -72,19 +72,19 @@ export class BoardComponent extends BaseComponent implements OnInit {
     },
     {
       name: 'გეგა',
-      age: 8,
-      about: "საყვარელი სტილი - ბრასი",
+      age: 7,
+      about: "ცურავს ბატერფლაის... 25 მეტრი კროლი - 40 წამში",
       gender: 'boy',
-      img: imageList.BROWNFISH,
-      skills:[middleSkills.BACKSTROKE,middleSkills.FREESTYLE,middleSkills.BREASTKICK,middleSkills.HOLD25,middleSkills.KICKS,]
+      img: imageList.WHALE2,
+      skills:[middleSkills.BACKSTROKE,middleSkills.FREESTYLE,middleSkills.BREASTKICK,middleSkills.HOLD25,middleSkills.KICKS,middleSkills.HEADDIVE,middleSkills.LAP40]
     },
     {
       name: 'ლუკა',
       age: 11,
-      about: "საყვარელი სტილი - ბრასი",
+      about: "უყვარს წყალში ხტომა",
       gender: 'boy',
-      img: imageList.GREENFISH,
-      skills:[hardskills.BACKSTROKE40,hardskills.HOLD40,hardskills.LAPS8,hardskills.UNDERWATER10,hardskills.BREASTSTROKE40,hardskills.FREESTYLE35]
+      img: imageList.SHARK,
+      skills:[hardskills.BACKSTROKE40,hardskills.HEADDIVE,hardskills.HOLD40,hardskills.LAPS8,hardskills.UNDERWATER10,hardskills.BREASTSTROKE40,hardskills.FREESTYLE35]
     },
     {
       name: 'София',

@@ -1,7 +1,7 @@
 <div class="header">
     <div class="left"></div>
     <div class="middle">
-        <span class="headerTabs" *ngFor="let item of header" (click)="headerColor(item.id)" [ngStyle]="item.id == headerIndex ? {'background-color': '#c7e4ed'} : {'background-color': ''}" [routerLink]="item.link">{{item.name | translate : lang}} </span>
+        <span class="headerTabs" *ngFor="let item of header" (click)="headerColor(item.id)" [ngStyle]="item.id == headerIndex ? {'background-color': 'rgb(229, 229, 179)'} : {'background-color': ''}" [routerLink]="item.link">{{item.name | translate : lang}} </span>
     </div>
     <div class="right">
         <div (click)="changeLang(lang)" class="lang">{{lang}}</div>

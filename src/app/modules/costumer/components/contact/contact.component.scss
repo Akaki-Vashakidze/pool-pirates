@@ -6,10 +6,12 @@
 .info {
     position: relative;
     width: 200px;
+    left: -50px;
     margin: auto;
     display: grid;
     grid-template-columns: 40% 60%;
     margin-top: 30px;
+    gap: 15px;
 }
 
 @media only screen and (max-width: 600px) {
