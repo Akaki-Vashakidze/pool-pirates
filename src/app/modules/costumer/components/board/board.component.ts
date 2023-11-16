@@ -19,7 +19,7 @@ export class BoardComponent extends BaseComponent implements OnInit {
       age: 5,
       about: "უყვარს წყალში ხტომა",
       gender: 'boy',
-      img: imageList.LOBSTER,
+      img: imageList.DOLPHIN,
       skills:[easySkills.ACCROSSPOOL,easySkills.ALONE5,easySkills.BACKFLOAT,easySkills.FLOATS,easySkills.HOLDBREATH10,easySkills.JUMP,easySkills.PUTSHEAD,easySkills.DIVESBOTTOM]
     },
     {

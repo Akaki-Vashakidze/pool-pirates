@@ -1,4 +1,5 @@
 export enum imageList {
+    DOLPHIN = 'dolphin3.jpg',
     BLUEFISH ='blueFish.jpg',
     GREENFISH = 'greenFish.jpg',
     LOBSTER = 'lobster.jpg',
