@@ -377,7 +377,7 @@ export class BoardComponent extends BaseComponent implements OnInit {
     {
       name: 'Ben',
       age: 11,
-      about: "One lap(25m) freestyle - 26.27 Seconds",
+      about: "25m freestyle - 0:26.27, 50m freestyle - 1:01.94",
       gender: 'boy',
       img: imageList.SHARK,
       skills:[hardskills.BACKSTROKE40,hardskills.BREASTSTROKE40,hardskills.FREESTYLE35,hardskills.HEADDIVE,hardskills.BUTTERFLYUNDERWATER,hardskills.UNDERWATER10,hardskills.LAPS8,hardskills.HOLD40]
@@ -385,7 +385,7 @@ export class BoardComponent extends BaseComponent implements OnInit {
     {
       name: 'Oliver',
       age: 13,
-      about: "One lap(25m) freestyle - 30.64 seconds, Breastroke - 31.55 seconds",
+      about: "25m freestyle - 0:30.64, 25m Breastroke - 0:29.59, 50m Breaststroke - 1:05.19",
       gender: 'boy',
       img: imageList.WHALE2,
       skills:[hardskills.BACKSTROKE40,hardskills.BREASTSTROKE40,hardskills.FREESTYLE35,hardskills.BUTTERFLYUNDERWATER,hardskills.UNDERWATER10,hardskills.LAPS8,hardskills.HOLD40]
