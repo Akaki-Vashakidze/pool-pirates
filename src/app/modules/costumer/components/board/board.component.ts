@@ -116,7 +116,7 @@ export class BoardComponent extends BaseComponent implements OnInit {
       about: "Likes doing underwater butterfly kicks",
       gender: 'boy',
       img: imageList.BLUEFISH,
-      skills: [middleSkills.BACKSTROKE,middleSkills.BREASTKICK, middleSkills.FREESTYLE,middleSkills.KICKS,middleSkills.UNDERWATER7,middleSkills.HOLD25,middleSkills.BREASTSTROKE,]
+      skills: [middleSkills.BACKSTROKE,middleSkills.BREASTKICK, middleSkills.FREESTYLE,middleSkills.KICKS,middleSkills.UNDERWATER7,middleSkills.HOLD25,middleSkills.BREASTSTROKE,middleSkills.FLIPTURN,middleSkills.HEADDIVE]
     },
     {
       name: 'Dylan',
