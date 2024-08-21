@@ -415,7 +415,7 @@ export class BoardComponent extends BaseComponent implements OnInit {
       skills:[middleSkills.BACKSTROKE,middleSkills.BREASTKICK,middleSkills.FREESTYLE,middleSkills.HEADDIVE,middleSkills.KICKS,middleSkills.HOLD25,middleSkills.BREASTSTROKE,middleSkills.UNDERWATER7]
     },
     {
-      name: 'Ariella',
+      name: 'Zida',
       age: 4,
       about: "Likes doing airplane game.",
       gender: 'girl',
